@@ -1,0 +1,401 @@
+exposure_id,counterparty,ticker,sector,country,asset_type,rating,notional_usd_mn,market_value_usd_mn,ead_usd_mn,maturity_years,pd_1y,lgd,asset_corr,duration,convexity,spread_duration,dv01_usd
+EXP-0001,Meta Platforms Inc.,META,Communication Services,US,Interest Rate Swap,AA,78.35,0.51,2.6,7.5,0.000431,0.3632,0.2374,6.0,39.6,0.0,-47007.18
+EXP-0002,Mosaic Foods Ltd,,Consumer Staples,IN,Fixed-Rate Bond,A,48.18,48.03,48.03,4.5,0.000929,0.5108,0.2346,3.814,15.998,3.814,18315.43
+EXP-0003,Microsoft Corp.,MSFT,Technology,US,Revolver,A,78.02,30.17,54.1,3.5,0.00173,0.3787,0.2301,0.25,0.05,0.0,754.29
+EXP-0004,Tesla Inc.,TSLA,Consumer Discretionary,US,Interest Rate Swap,BBB,29.28,0.28,0.32,5.5,0.003115,0.3891,0.2227,4.4,21.296,0.0,-12884.84
+EXP-0005,Lakeshore Retail Group,,Consumer Discretionary,US,Corporate Loan,BBB,197.6,197.6,197.6,5.0,0.003514,0.2921,0.2207,0.481,0.05,0.0,9511.62
+EXP-0006,Bank of America Corp.,BAC,Financials,US,Corporate Loan,BBB,28.69,28.69,28.69,4.0,0.004344,0.484,0.2166,0.332,0.05,0.0,951.61
+EXP-0007,Riverside Realty Trust,,Real Estate,US,Corporate Loan,BBB,17.47,17.47,17.47,3.0,0.00444,0.5261,0.2161,0.402,0.05,0.0,701.63
+EXP-0008,Aurum Retail Group,,Consumer Discretionary,US,Corporate Loan,BBB,26.83,26.83,26.83,1.5,0.003535,0.3765,0.2206,0.269,0.05,0.0,721.84
+EXP-0009,Johnson & Johnson,JNJ,Healthcare,US,Interest Rate Swap,A,78.23,1.09,1.69,10.0,0.001154,0.4476,0.2333,8.0,70.4,0.0,-62585.1
+EXP-0010,Clearwater Power Ltd,,Utilities,UK,Corporate Loan,AA,27.8,27.8,27.8,2.5,0.000522,0.5147,0.2369,0.498,0.05,0.0,1383.44
+EXP-0011,Monarch Realty Trust,,Real Estate,US,Interest Rate Swap,BBB,50.28,0.98,2.06,5.5,0.005934,0.4757,0.2092,4.4,21.296,0.0,-22121.72
+EXP-0012,Kestrel Foods Ltd,,Consumer Staples,IN,Corporate Loan,BBB,15.02,15.02,15.02,5.0,0.006799,0.5234,0.2054,0.272,0.05,0.0,408.95
+EXP-0013,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Corporate Loan,BBB,128.77,128.77,128.77,5.5,0.003598,0.4586,0.2202,0.259,0.05,0.0,3334.27
+EXP-0014,Bastion Aerospace Ltd,,Defence,US,Revolver,B,35.1,10.82,22.96,4.5,0.071086,0.4554,0.1234,0.25,0.05,0.0,270.57
+EXP-0015,Helix Pharma Ltd,,Healthcare,SG,Corporate Loan,BBB,38.47,38.47,38.47,7.0,0.003613,0.4,0.2202,0.374,0.05,0.0,1440.1
+EXP-0016,Harvest Foods Ltd,,Consumer Staples,IN,Floating-Rate Bond,BBB,40.99,39.97,39.97,6.5,0.003987,0.4803,0.2183,0.286,0.05,5.525,1141.06
+EXP-0017,Gulfstream Petroleum Ltd,,Energy,JP,Fixed-Rate Bond,B,116.61,119.4,119.4,6.0,0.053125,0.5106,0.1284,4.522,22.497,4.522,53998.24
+EXP-0018,Meta Platforms Inc.,META,Communication Services,US,Corporate Loan,AA,48.01,48.01,48.01,2.5,0.000799,0.3688,0.2353,0.49,0.05,0.0,2351.99
+EXP-0019,Saffron Retail Group,,Consumer Discretionary,US,Revolver,A,24.94,9.11,17.02,4.5,0.001,0.4108,0.2341,0.25,0.05,0.0,227.84
+EXP-0020,Coca-Cola Co.,KO,Consumer Staples,US,Fixed-Rate Bond,A,17.1,17.43,17.43,2.0,0.001051,0.4474,0.2339,1.681,3.108,1.681,2929.83
+EXP-0021,Stratus Capital Partners,,Financials,IN,Interest Rate Swap,A,12.37,-0.24,0.49,6.5,0.001899,0.6243,0.2291,5.2,29.744,0.0,-6432.2
+EXP-0022,NVIDIA Corp.,NVDA,Technology,US,Fixed-Rate Bond,BBB,52.57,51.25,51.25,3.5,0.005465,0.5261,0.2113,2.701,8.022,2.701,13839.02
+EXP-0023,Bank of America Corp.,BAC,Financials,US,Corporate Loan,BBB,13.32,13.32,13.32,6.0,0.00421,0.4339,0.2172,0.206,0.05,0.0,274.77
+EXP-0024,NVIDIA Corp.,NVDA,Technology,US,Fixed-Rate Bond,BBB,89.93,87.72,87.72,8.5,0.0045,0.4567,0.2158,7.018,54.182,7.018,61566.42
+EXP-0025,Microsoft Corp.,MSFT,Technology,US,Corporate Loan,A,379.99,379.99,379.99,3.5,0.001778,0.4432,0.2298,0.275,0.05,0.0,10442.76
+EXP-0026,NVIDIA Corp.,NVDA,Technology,US,Revolver,BBB,49.29,39.44,44.37,5.0,0.004806,0.4788,0.2144,0.25,0.05,0.0,985.98
+EXP-0027,Meta Platforms Inc.,META,Communication Services,US,Interest Rate Swap,AA,57.54,-0.96,2.42,2.5,0.000507,0.4325,0.237,2.0,4.4,0.0,11507.26
+EXP-0028,Walt Disney Co.,DIS,Communication Services,US,Fixed-Rate Bond,BBB,45.19,46.03,46.03,8.5,0.004241,0.5106,0.2171,6.965,53.363,6.965,32062.49
+EXP-0029,Bank of America Corp.,BAC,Financials,US,Corporate Loan,BBB,9.81,9.81,9.81,2.0,0.003067,0.4718,0.2229,0.27,0.05,0.0,264.67
+EXP-0030,Exxon Mobil Corp.,XOM,Energy,US,Revolver,BBB,17.23,8.24,12.73,2.5,0.006228,0.485,0.2079,0.25,0.05,0.0,205.93
+EXP-0031,Meridian Petroleum Ltd,,Energy,SG,Corporate Loan,BBB,56.83,56.83,56.83,7.0,0.005535,0.4022,0.211,0.396,0.05,0.0,2249.39
+EXP-0032,Orion Capital Partners,,Financials,UK,Corporate Loan,A,88.28,88.28,88.28,6.5,0.001459,0.4086,0.2316,0.261,0.05,0.0,2301.72
+EXP-0033,Lumen Systems Inc.,,Technology,SG,Corporate Loan,A,171.64,171.64,171.64,4.5,0.00118,0.3497,0.2331,0.481,0.05,0.0,8252.12
+EXP-0034,Saffron Retail Group,,Consumer Discretionary,US,Fixed-Rate Bond,A,66.61,67.52,67.52,2.5,0.00121,0.427,0.233,2.23,5.469,2.23,15055.34
+EXP-0035,Alphabet Inc.,GOOGL,Communication Services,US,Fixed-Rate Bond,A,23.74,23.64,23.64,3.0,0.001295,0.5043,0.2325,2.46,6.655,2.46,5813.98
+EXP-0036,Saffron Retail Group,,Consumer Discretionary,US,Revolver,A,7.68,6.59,7.14,3.5,0.001391,0.3551,0.2319,0.25,0.05,0.0,164.82
+EXP-0037,Alphabet Inc.,GOOGL,Communication Services,US,Fixed-Rate Bond,A,78.74,79.03,79.03,9.5,0.001272,0.5141,0.2326,7.6,63.543,7.6,60066.88
+EXP-0038,Bank of America Corp.,BAC,Financials,US,Revolver,BBB,35.55,14.03,24.79,4.0,0.004953,0.51,0.2137,0.25,0.05,0.0,350.64
+EXP-0039,Caterpillar Inc.,CAT,Industrials,US,Revolver,BBB,130.85,112.75,121.8,1.5,0.004733,0.5007,0.2147,0.25,0.05,0.0,2818.76
+EXP-0040,Johnson & Johnson,JNJ,Healthcare,US,FX Forward,A,79.39,0.67,2.85,1.0,0.002147,0.4377,0.2278,0.0,0.05,0.0,0.0
+EXP-0041,Walt Disney Co.,DIS,Communication Services,US,Fixed-Rate Bond,BBB,27.74,27.36,27.36,6.5,0.003291,0.4039,0.2218,5.68,35.486,5.68,15538.11
+EXP-0042,Caterpillar Inc.,CAT,Industrials,US,Corporate Loan,BBB,60.84,60.84,60.84,1.0,0.003161,0.2814,0.2225,0.434,0.05,0.0,2642.77
+EXP-0043,Cedar Realty Trust,,Real Estate,SG,Corporate Loan,BBB,57.77,57.77,57.77,1.0,0.003813,0.4283,0.2192,0.5,0.05,0.0,2886.71
+EXP-0044,Alphabet Inc.,GOOGL,Communication Services,US,Interest Rate Swap,A,61.13,-0.65,0.96,2.5,0.001473,0.4264,0.2315,2.0,4.4,0.0,12225.13
+EXP-0045,Keystone Capital Partners,,Financials,US,Corporate Loan,AAA,36.41,36.41,36.41,6.0,0.000122,0.3422,0.2393,0.215,0.05,0.0,784.63
+EXP-0046,JPMorgan Chase & Co.,JPM,Financials,US,Interest Rate Swap,A,23.25,-0.1,0.95,7.5,0.001576,0.5297,0.2309,6.0,39.6,0.0,13949.48
+EXP-0047,Microsoft Corp.,MSFT,Technology,US,Corporate Loan,A,118.13,118.13,118.13,4.5,0.001034,0.3312,0.234,0.455,0.05,0.0,5378.72
+EXP-0048,Walmart Inc.,WMT,Consumer Staples,US,Corporate Loan,AA,76.08,76.08,76.08,5.0,0.000354,0.4436,0.2379,0.494,0.05,0.0,3758.68
+EXP-0049,Lumen Systems Inc.,,Technology,SG,Corporate Loan,A,36.02,36.02,36.02,3.5,0.001032,0.388,0.234,0.252,0.05,0.0,907.42
+EXP-0050,Falcon Aerospace Ltd,,Defence,SG,Revolver,BB,56.33,38.41,47.37,4.0,0.016285,0.4717,0.1732,0.25,0.05,0.0,960.17
+EXP-0051,Helios Power Ltd,,Utilities,US,Corporate Loan,B,12.27,12.27,12.27,4.0,0.066067,0.443,0.1244,0.395,0.05,0.0,484.5
+EXP-0052,Northwind Petroleum Ltd,,Energy,SG,Revolver,A,190.51,70.78,130.64,4.0,0.001221,0.4596,0.2329,0.25,0.05,0.0,1769.48
+EXP-0053,Goldman Sachs Group Inc.,GS,Financials,US,Revolver,A,52.21,28.57,40.39,2.5,0.000974,0.3546,0.2343,0.25,0.05,0.0,714.13
+EXP-0054,Quanta Systems Inc.,,Technology,US,Corporate Loan,BBB,27.71,27.71,27.71,5.0,0.007304,0.4864,0.2033,0.326,0.05,0.0,902.15
+EXP-0055,Nimbus Systems Inc.,,Technology,US,Fixed-Rate Bond,BBB,28.88,28.95,28.95,6.5,0.004134,0.5638,0.2176,5.183,29.553,5.183,15003.26
+EXP-0056,Caterpillar Inc.,CAT,Industrials,US,Fixed-Rate Bond,BBB,319.58,316.71,316.71,7.5,0.004604,0.5348,0.2153,6.454,45.817,6.454,204400.25
+EXP-0057,Northwind Petroleum Ltd,,Energy,SG,Fixed-Rate Bond,A,21.44,21.81,21.81,4.0,0.001399,0.5399,0.2319,3.296,11.953,3.296,7188.0
+EXP-0058,Apex Industries Ltd,,Industrials,IN,Corporate Loan,BBB,31.81,31.81,31.81,3.0,0.004166,0.4761,0.2174,0.3,0.05,0.0,955.16
+EXP-0059,Kestrel Foods Ltd,,Consumer Staples,IN,Corporate Loan,BBB,8.14,8.14,8.14,5.5,0.005629,0.3768,0.2106,0.312,0.05,0.0,253.56
+EXP-0060,Walt Disney Co.,DIS,Communication Services,US,Revolver,BBB,25.9,23.24,24.57,4.5,0.005017,0.4164,0.2134,0.25,0.05,0.0,580.9
+EXP-0061,Veritas Pharma Ltd,,Healthcare,SG,Fixed-Rate Bond,BB,31.53,29.98,29.98,9.5,0.01635,0.5401,0.173,7.423,60.61,7.423,22256.1
+EXP-0062,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Interest Rate Swap,BBB,147.23,-2.14,6.41,7.0,0.00429,0.5342,0.2168,5.6,34.496,0.0,82451.52
+EXP-0063,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,44.44,44.44,44.44,7.0,0.001774,0.3983,0.2298,0.33,0.05,0.0,1467.01
+EXP-0064,Tesla Inc.,TSLA,Consumer Discretionary,US,Interest Rate Swap,BBB,57.44,0.55,1.7,7.0,0.005996,0.3063,0.2089,5.6,34.496,0.0,-32166.58
+EXP-0065,Alphabet Inc.,GOOGL,Communication Services,US,Corporate Loan,A,20.65,20.65,20.65,6.5,0.001126,0.4104,0.2334,0.395,0.05,0.0,815.3
+EXP-0066,NVIDIA Corp.,NVDA,Technology,US,Revolver,BBB,70.41,35.42,52.92,3.5,0.004955,0.4834,0.2137,0.25,0.05,0.0,885.56
+EXP-0067,Aurum Retail Group,,Consumer Discretionary,US,Interest Rate Swap,BBB,37.31,-0.42,1.64,5.5,0.003297,0.3967,0.2218,4.4,21.296,0.0,16415.46
+EXP-0068,Pfizer Inc.,PFE,Healthcare,US,Interest Rate Swap,A,41.67,0.56,0.74,5.0,0.001153,0.4108,0.2333,4.0,17.6,0.0,-16668.19
+EXP-0069,Caterpillar Inc.,CAT,Industrials,US,Corporate Loan,BBB,12.56,12.56,12.56,4.5,0.003594,0.4314,0.2203,0.283,0.05,0.0,355.91
+EXP-0070,Falcon Aerospace Ltd,,Defence,SG,Fixed-Rate Bond,BB,108.55,109.74,109.74,2.0,0.008212,0.4306,0.1996,1.771,3.45,1.771,19434.57
+EXP-0071,Lakeshore Retail Group,,Consumer Discretionary,US,Interest Rate Swap,BBB,70.84,-1.25,2.28,6.0,0.004773,0.5467,0.2145,4.8,25.344,0.0,34002.28
+EXP-0072,Falcon Aerospace Ltd,,Defence,SG,Corporate Loan,BB,171.73,171.73,171.73,7.0,0.009926,0.3431,0.1931,0.304,0.05,0.0,5219.67
+EXP-0073,Lakeshore Retail Group,,Consumer Discretionary,US,Revolver,BBB,76.63,44.37,60.5,4.0,0.002887,0.4809,0.2239,0.25,0.05,0.0,1109.16
+EXP-0074,Pinnacle Retail Group,,Consumer Discretionary,DE,Corporate Loan,A,24.21,24.21,24.21,4.5,0.001452,0.4469,0.2316,0.477,0.05,0.0,1155.86
+EXP-0075,Johnson & Johnson,JNJ,Healthcare,US,Corporate Loan,A,17.49,17.49,17.49,6.0,0.000841,0.4468,0.2351,0.403,0.05,0.0,703.99
+EXP-0076,Skyline Realty Trust,,Real Estate,US,Floating-Rate Bond,AA,70.81,69.35,69.35,4.0,0.000448,0.5019,0.2373,0.224,0.05,3.4,1555.97
+EXP-0077,Aurora Petroleum Ltd,,Energy,IN,Fixed-Rate Bond,AA,58.31,57.27,57.27,2.0,0.000703,0.4376,0.2359,1.769,3.441,1.769,10128.87
+EXP-0078,Granite Industries Ltd,,Industrials,DE,Revolver,A,307.46,201.14,254.3,5.0,0.00111,0.4328,0.2335,0.25,0.05,0.0,5028.43
+EXP-0079,Monarch Realty Trust,,Real Estate,US,Corporate Loan,BBB,63.59,63.59,63.59,2.5,0.003097,0.462,0.2228,0.303,0.05,0.0,1924.23
+EXP-0080,Vanguard Aerospace Ltd,,Defence,UK,Corporate Loan,A,30.54,30.54,30.54,4.0,0.000779,0.4299,0.2354,0.372,0.05,0.0,1137.48
+EXP-0081,Bright Power Ltd,,Utilities,UK,Revolver,BBB,34.8,18.07,26.43,1.5,0.003415,0.4852,0.2212,0.25,0.05,0.0,451.69
+EXP-0082,Apple Inc.,AAPL,Technology,US,Revolver,BBB,46.1,25.46,35.78,4.5,0.002948,0.4489,0.2236,0.25,0.05,0.0,636.43
+EXP-0083,Oceanic Shipping Ltd,,Shipping & Logistics,SG,Corporate Loan,B,37.47,37.47,37.47,3.0,0.033385,0.4489,0.1426,0.271,0.05,0.0,1013.74
+EXP-0084,Blue Horizon Shipping Ltd,,Shipping & Logistics,US,Floating-Rate Bond,BBB,74.95,73.59,73.59,6.0,0.005546,0.521,0.2109,0.148,0.05,5.1,1091.21
+EXP-0085,Cedar Realty Trust,,Real Estate,SG,Corporate Loan,BBB,55.98,55.98,55.98,5.0,0.004316,0.469,0.2167,0.438,0.05,0.0,2449.73
+EXP-0086,Meridian Petroleum Ltd,,Energy,SG,FX Forward,BBB,26.36,-0.13,1.83,0.5,0.003992,0.4974,0.2183,0.0,0.05,0.0,0.0
+EXP-0087,Meta Platforms Inc.,META,Communication Services,US,Fixed-Rate Bond,AA,28.48,28.22,28.22,8.5,0.000634,0.3649,0.2363,6.927,52.782,6.927,19548.25
+EXP-0088,Meta Platforms Inc.,META,Communication Services,US,Corporate Loan,AA,6.25,6.25,6.25,4.5,0.000475,0.4868,0.2372,0.337,0.05,0.0,210.34
+EXP-0089,NVIDIA Corp.,NVDA,Technology,US,Corporate Loan,BBB,38.22,38.22,38.22,1.0,0.003526,0.3654,0.2206,0.218,0.05,0.0,833.77
+EXP-0090,Goldman Sachs Group Inc.,GS,Financials,US,Revolver,A,67.15,24.66,45.9,1.5,0.000926,0.4493,0.2346,0.25,0.05,0.0,616.47
+EXP-0091,Northwind Petroleum Ltd,,Energy,SG,Revolver,A,11.45,6.4,8.93,1.0,0.001099,0.3887,0.2336,0.25,0.05,0.0,159.97
+EXP-0092,JPMorgan Chase & Co.,JPM,Financials,US,Corporate Loan,A,6.45,6.45,6.45,6.5,0.001729,0.437,0.2301,0.405,0.05,0.0,261.27
+EXP-0093,Clearwater Power Ltd,,Utilities,UK,Corporate Loan,AA,16.33,16.33,16.33,4.0,0.000507,0.4529,0.237,0.413,0.05,0.0,675.36
+EXP-0094,Walt Disney Co.,DIS,Communication Services,US,Interest Rate Swap,BBB,45.39,0.55,0.65,9.5,0.002566,0.5101,0.2256,7.6,63.536,0.0,-34499.26
+EXP-0095,Coastal Arc Shipping Ltd,,Shipping & Logistics,IN,Fixed-Rate Bond,A,9.03,9.2,9.2,6.0,0.001365,0.4777,0.2321,5.057,28.133,5.057,4652.22
+EXP-0096,Granite Industries Ltd,,Industrials,DE,Corporate Loan,A,31.48,31.48,31.48,1.0,0.002003,0.5271,0.2286,0.336,0.05,0.0,1058.91
+EXP-0097,Johnson & Johnson,JNJ,Healthcare,US,Floating-Rate Bond,A,79.27,78.8,78.8,5.5,0.001407,0.5444,0.2319,0.143,0.05,4.675,1128.97
+EXP-0098,Alphabet Inc.,GOOGL,Communication Services,US,Corporate Loan,A,9.6,9.6,9.6,6.0,0.001044,0.3432,0.2339,0.206,0.05,0.0,197.53
+EXP-0099,Solace Pharma Ltd,,Healthcare,US,Floating-Rate Bond,A,118.66,117.92,117.92,2.5,0.001262,0.4344,0.2327,0.125,0.05,2.125,1476.4
+EXP-0100,Tesla Inc.,TSLA,Consumer Discretionary,US,Revolver,BBB,14.11,4.27,9.19,5.0,0.004411,0.5579,0.2162,0.25,0.05,0.0,106.66
+EXP-0101,Quanta Systems Inc.,,Technology,US,Corporate Loan,BBB,48.81,48.81,48.81,1.5,0.003433,0.4109,0.2211,0.361,0.05,0.0,1761.31
+EXP-0102,NVIDIA Corp.,NVDA,Technology,US,Fixed-Rate Bond,BBB,60.21,60.4,60.4,9.0,0.004364,0.5597,0.2165,7.879,68.285,7.879,47586.49
+EXP-0103,Coca-Cola Co.,KO,Consumer Staples,US,Interest Rate Swap,A,41.26,-0.67,1.07,7.0,0.001319,0.5272,0.2323,5.6,34.496,0.0,23108.29
+EXP-0104,Coastal Arc Shipping Ltd,,Shipping & Logistics,IN,Floating-Rate Bond,A,14.78,14.64,14.64,2.5,0.001039,0.5152,0.2339,0.102,0.05,2.125,150.1
+EXP-0105,Boeing Co.,BA,Industrials,US,Corporate Loan,AA,51.32,51.32,51.32,3.5,0.000531,0.4364,0.2369,0.319,0.05,0.0,1634.49
+EXP-0106,Sentry Aerospace Ltd,,Defence,AE,Corporate Loan,BBB,126.36,126.36,126.36,6.5,0.003365,0.293,0.2214,0.474,0.05,0.0,5986.42
+EXP-0107,Evergreen Foods Ltd,,Consumer Staples,IN,Interest Rate Swap,BB,41.0,-0.07,1.63,9.0,0.016561,0.5437,0.1724,7.2,57.024,0.0,29521.22
+EXP-0108,Meta Platforms Inc.,META,Communication Services,US,Interest Rate Swap,AA,21.9,-0.29,0.31,8.0,0.000792,0.4298,0.2353,6.4,45.056,0.0,-14017.11
+EXP-0109,Falcon Aerospace Ltd,,Defence,SG,Revolver,BB,162.69,135.44,149.07,1.5,0.0155,0.4719,0.1753,0.25,0.05,0.0,3386.11
+EXP-0110,Lumen Systems Inc.,,Technology,SG,Fixed-Rate Bond,A,22.72,23.28,23.28,2.0,0.001506,0.5019,0.2313,1.64,2.96,1.64,3818.6
+EXP-0111,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,52.36,52.36,52.36,4.5,0.000739,0.46,0.2356,0.405,0.05,0.0,2122.52
+EXP-0112,JPMorgan Chase & Co.,JPM,Financials,US,Corporate Loan,A,38.17,38.17,38.17,4.5,0.001477,0.3395,0.2315,0.283,0.05,0.0,1081.98
+EXP-0113,Aurora Petroleum Ltd,,Energy,IN,Revolver,AA,38.54,12.61,25.57,4.5,0.000389,0.4935,0.2377,0.25,0.05,0.0,315.14
+EXP-0114,Stratus Capital Partners,,Financials,IN,Revolver,A,8.35,3.98,6.16,2.0,0.001169,0.4483,0.2332,0.25,0.05,0.0,99.52
+EXP-0115,Riverside Realty Trust,,Real Estate,US,FX Forward,BBB,16.44,-0.19,0.55,0.5,0.004837,0.5247,0.2142,0.0,0.05,0.0,0.0
+EXP-0116,Harbourline Shipping Ltd,,Shipping & Logistics,UK,Corporate Loan,BBB,10.23,10.23,10.23,5.5,0.004063,0.4223,0.2179,0.363,0.05,0.0,371.19
+EXP-0117,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Interest Rate Swap,BBB,23.29,-0.3,0.51,7.0,0.00496,0.4562,0.2136,5.6,34.496,0.0,13042.94
+EXP-0118,Aurum Retail Group,,Consumer Discretionary,US,Corporate Loan,BBB,24.32,24.32,24.32,3.0,0.004253,0.3434,0.217,0.236,0.05,0.0,574.32
+EXP-0119,Bank of America Corp.,BAC,Financials,US,Interest Rate Swap,BBB,21.92,0.18,0.43,7.5,0.00576,0.5195,0.21,6.0,39.6,0.0,-13152.99
+EXP-0120,Cedar Realty Trust,,Real Estate,SG,Corporate Loan,BBB,61.09,61.09,61.09,5.5,0.004156,0.368,0.2175,0.273,0.05,0.0,1670.54
+EXP-0121,Monarch Realty Trust,,Real Estate,US,Floating-Rate Bond,BBB,35.02,34.66,34.66,3.5,0.00499,0.4861,0.2135,0.206,0.05,2.975,713.77
+EXP-0122,Walt Disney Co.,DIS,Communication Services,US,Corporate Loan,BBB,57.26,57.26,57.26,1.5,0.004862,0.4554,0.2141,0.486,0.05,0.0,2782.44
+EXP-0123,Walmart Inc.,WMT,Consumer Staples,US,Corporate Loan,AA,84.87,84.87,84.87,4.0,0.000527,0.4732,0.2369,0.236,0.05,0.0,2000.25
+EXP-0124,Lumen Systems Inc.,,Technology,SG,Revolver,A,50.42,20.79,35.6,3.0,0.000577,0.473,0.2366,0.25,0.05,0.0,519.75
+EXP-0125,Kestrel Foods Ltd,,Consumer Staples,IN,Revolver,BBB,57.41,48.94,53.18,3.0,0.003365,0.4073,0.2214,0.25,0.05,0.0,1223.5
+EXP-0126,Chevron Corp.,CVX,Energy,US,Floating-Rate Bond,A,240.62,241.04,241.04,2.0,0.00124,0.4399,0.2328,0.142,0.05,1.7,3432.18
+EXP-0127,Orion Capital Partners,,Financials,UK,Corporate Loan,A,13.42,13.42,13.42,5.5,0.000997,0.4755,0.2342,0.284,0.05,0.0,381.62
+EXP-0128,Walt Disney Co.,DIS,Communication Services,US,Corporate Loan,BBB,36.74,36.74,36.74,4.0,0.003505,0.3575,0.2207,0.477,0.05,0.0,1750.98
+EXP-0129,United Parcel Service Inc.,UPS,Shipping & Logistics,US,Fixed-Rate Bond,A,12.88,12.72,12.72,5.0,0.000818,0.5138,0.2352,4.463,21.906,4.463,5676.23
+EXP-0130,Helix Pharma Ltd,,Healthcare,SG,Interest Rate Swap,BBB,66.32,0.33,2.65,10.0,0.005234,0.4318,0.2124,8.0,70.4,0.0,-53054.57
+EXP-0131,Keystone Capital Partners,,Financials,US,Corporate Loan,AAA,130.62,130.62,130.62,5.5,0.000195,0.4412,0.2388,0.422,0.05,0.0,5506.37
+EXP-0132,Harvest Foods Ltd,,Consumer Staples,IN,Revolver,BBB,44.41,24.5,34.45,2.5,0.004434,0.4062,0.2161,0.25,0.05,0.0,612.41
+EXP-0133,Boeing Co.,BA,Industrials,US,Revolver,AA,40.1,28.09,34.09,4.5,0.000455,0.4954,0.2373,0.25,0.05,0.0,702.17
+EXP-0134,Apple Inc.,AAPL,Technology,US,Corporate Loan,BBB,126.81,126.81,126.81,1.5,0.002975,0.3573,0.2234,0.433,0.05,0.0,5496.7
+EXP-0135,Helix Pharma Ltd,,Healthcare,SG,Corporate Loan,BBB,32.13,32.13,32.13,5.5,0.004899,0.439,0.2139,0.285,0.05,0.0,915.89
+EXP-0136,Walmart Inc.,WMT,Consumer Staples,US,Fixed-Rate Bond,AA,7.41,7.6,7.6,3.0,0.000505,0.4997,0.237,2.525,7.011,2.525,1919.15
+EXP-0137,Exxon Mobil Corp.,XOM,Energy,US,FX Forward,BBB,47.04,0.23,2.35,0.75,0.004498,0.5092,0.2158,0.0,0.05,0.0,0.0
+EXP-0138,Caterpillar Inc.,CAT,Industrials,US,Interest Rate Swap,BBB,68.77,-0.98,2.19,7.5,0.004616,0.4043,0.2153,6.0,39.6,0.0,41263.36
+EXP-0139,JPMorgan Chase & Co.,JPM,Financials,US,Interest Rate Swap,A,61.74,-0.89,3.03,6.0,0.00114,0.4566,0.2333,4.8,25.344,0.0,-29635.88
+EXP-0140,Meridian Petroleum Ltd,,Energy,SG,Revolver,BBB,129.86,89.2,109.53,4.0,0.004987,0.4571,0.2135,0.25,0.05,0.0,2230.07
+EXP-0141,Quanta Systems Inc.,,Technology,US,Revolver,BBB,128.01,104.5,116.26,3.5,0.00383,0.4464,0.2191,0.25,0.05,0.0,2612.53
+EXP-0142,Chevron Corp.,CVX,Energy,US,Floating-Rate Bond,A,127.1,123.99,123.99,7.0,0.000908,0.4862,0.2347,0.255,0.05,5.95,3160.12
+EXP-0143,Vanguard Aerospace Ltd,,Defence,UK,Corporate Loan,A,47.96,47.96,47.96,1.0,0.001036,0.5061,0.2339,0.386,0.05,0.0,1850.67
+EXP-0144,NVIDIA Corp.,NVDA,Technology,US,Corporate Loan,BBB,56.54,56.54,56.54,3.5,0.004626,0.3955,0.2152,0.281,0.05,0.0,1589.86
+EXP-0145,Meta Platforms Inc.,META,Communication Services,US,Interest Rate Swap,AA,67.46,-0.6,2.03,3.0,0.00061,0.4608,0.2364,2.4,6.336,0.0,-16189.44
+EXP-0146,Vanguard Aerospace Ltd,,Defence,UK,FX Forward,A,37.91,0.19,2.99,0.25,0.001637,0.5178,0.2306,0.0,0.05,0.0,0.0
+EXP-0147,Boeing Co.,BA,Industrials,US,Corporate Loan,AA,60.62,60.62,60.62,1.5,0.000596,0.3387,0.2365,0.306,0.05,0.0,1854.95
+EXP-0148,Ironbridge Industries Ltd,,Industrials,US,Revolver,BBB,78.34,61.17,69.76,2.0,0.003374,0.4356,0.2214,0.25,0.05,0.0,1529.26
+EXP-0149,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Interest Rate Swap,BBB,99.07,-0.54,3.11,8.0,0.005036,0.4502,0.2133,6.4,45.056,0.0,-63404.62
+EXP-0150,Caterpillar Inc.,CAT,Industrials,US,Floating-Rate Bond,BBB,34.52,34.39,34.39,2.0,0.004391,0.4854,0.2163,0.265,0.05,1.7,909.92
+EXP-0151,Skyline Realty Trust,,Real Estate,US,Interest Rate Swap,AA,32.41,0.67,0.84,5.5,0.00069,0.4537,0.2359,4.4,21.296,0.0,14259.74
+EXP-0152,Mosaic Foods Ltd,,Consumer Staples,IN,Revolver,A,40.12,20.89,30.51,4.0,0.000728,0.4174,0.2357,0.25,0.05,0.0,522.33
+EXP-0153,Mosaic Foods Ltd,,Consumer Staples,IN,Corporate Loan,A,58.4,58.4,58.4,4.0,0.001548,0.4818,0.2311,0.253,0.05,0.0,1476.91
+EXP-0154,Pfizer Inc.,PFE,Healthcare,US,FX Forward,A,49.75,0.35,2.47,1.5,0.0012,0.5384,0.233,0.0,0.05,0.0,0.0
+EXP-0155,Cedar Realty Trust,,Real Estate,SG,Corporate Loan,BBB,15.47,15.47,15.47,5.0,0.004222,0.3296,0.2172,0.397,0.05,0.0,614.08
+EXP-0156,Coastal Arc Shipping Ltd,,Shipping & Logistics,IN,Fixed-Rate Bond,A,285.66,271.99,271.99,5.0,0.0009,0.3855,0.2347,3.787,15.776,3.787,103004.74
+EXP-0157,JPMorgan Chase & Co.,JPM,Financials,US,Revolver,A,37.37,29.75,33.56,4.0,0.000992,0.4589,0.2342,0.25,0.05,0.0,743.73
+EXP-0158,Bank of America Corp.,BAC,Financials,US,Fixed-Rate Bond,BBB,13.91,13.97,13.97,5.5,0.004488,0.4174,0.2159,4.18,19.215,4.18,5837.03
+EXP-0159,Riverside Realty Trust,,Real Estate,US,Fixed-Rate Bond,BBB,65.32,66.7,66.7,6.5,0.005789,0.4846,0.2098,5.333,31.287,5.333,35574.12
+EXP-0160,NVIDIA Corp.,NVDA,Technology,US,Corporate Loan,BBB,191.96,191.96,191.96,4.0,0.006523,0.3565,0.2066,0.404,0.05,0.0,7752.31
+EXP-0161,Walmart Inc.,WMT,Consumer Staples,US,Revolver,AA,55.98,21.32,38.65,1.5,0.000425,0.4095,0.2375,0.25,0.05,0.0,532.99
+EXP-0162,Johnson & Johnson,JNJ,Healthcare,US,Corporate Loan,A,248.19,248.19,248.19,3.0,0.001062,0.4088,0.2338,0.383,0.05,0.0,9509.2
+EXP-0163,Clearwater Power Ltd,,Utilities,UK,Corporate Loan,AA,13.28,13.28,13.28,2.5,0.000285,0.3483,0.2383,0.235,0.05,0.0,311.61
+EXP-0164,Granite Industries Ltd,,Industrials,DE,Floating-Rate Bond,A,112.32,113.43,113.43,6.0,0.001368,0.5437,0.2321,0.109,0.05,5.1,1234.47
+EXP-0165,Helios Power Ltd,,Utilities,US,Fixed-Rate Bond,B,62.92,60.63,60.63,6.0,0.037188,0.5052,0.1387,5.381,31.848,5.381,32623.26
+EXP-0166,Pfizer Inc.,PFE,Healthcare,US,Fixed-Rate Bond,A,40.86,39.45,39.45,7.5,0.001651,0.4399,0.2305,5.741,36.257,5.741,22648.1
+EXP-0167,Johnson & Johnson,JNJ,Healthcare,US,Revolver,A,92.28,62.74,77.51,2.0,0.001083,0.3415,0.2337,0.25,0.05,0.0,1568.43
+EXP-0168,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,86.72,86.72,86.72,7.0,0.001294,0.3765,0.2325,0.339,0.05,0.0,2935.97
+EXP-0169,Exxon Mobil Corp.,XOM,Energy,US,Revolver,BBB,38.79,13.84,26.31,3.5,0.003989,0.51,0.2183,0.25,0.05,0.0,345.95
+EXP-0170,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,27.97,27.97,27.97,5.5,0.000974,0.4597,0.2343,0.277,0.05,0.0,775.42
+EXP-0171,Vertex Systems Inc.,,Technology,UK,Fixed-Rate Bond,BB,136.79,140.3,140.3,8.0,0.016466,0.4626,0.1727,6.471,46.061,6.471,90786.72
+EXP-0172,Apple Inc.,AAPL,Technology,US,Corporate Loan,BBB,146.19,146.19,146.19,6.5,0.006065,0.2898,0.2086,0.208,0.05,0.0,3040.25
+EXP-0173,Gulfstream Petroleum Ltd,,Energy,JP,Revolver,B,41.98,32.41,37.2,3.5,0.035889,0.4486,0.1399,0.25,0.05,0.0,810.25
+EXP-0174,Johnson & Johnson,JNJ,Healthcare,US,Fixed-Rate Bond,A,45.82,46.37,46.37,7.5,0.00128,0.5507,0.2326,6.184,42.061,6.184,28671.16
+EXP-0175,Sentry Aerospace Ltd,,Defence,AE,Interest Rate Swap,BBB,15.85,-0.23,0.72,3.0,0.002381,0.4869,0.2265,2.4,6.336,0.0,3803.0
+EXP-0176,Meridian Petroleum Ltd,,Energy,SG,Fixed-Rate Bond,BBB,5.5,5.49,5.49,5.0,0.002247,0.4791,0.2272,4.069,18.21,4.069,2233.65
+EXP-0177,Meta Platforms Inc.,META,Communication Services,US,Floating-Rate Bond,AA,23.31,22.89,22.89,2.0,0.000475,0.5226,0.2372,0.275,0.05,1.7,629.22
+EXP-0178,United Parcel Service Inc.,UPS,Shipping & Logistics,US,Fixed-Rate Bond,A,21.77,21.84,21.84,4.0,0.000812,0.5137,0.2352,3.226,11.448,3.226,7047.01
+EXP-0179,United Parcel Service Inc.,UPS,Shipping & Logistics,US,Fixed-Rate Bond,A,11.22,10.83,10.83,5.5,0.000917,0.5526,0.2346,4.409,21.382,4.409,4774.35
+EXP-0180,Boeing Co.,BA,Industrials,US,Floating-Rate Bond,AA,177.06,172.32,172.32,2.5,0.000985,0.4872,0.2342,0.23,0.05,2.125,3969.06
+EXP-0181,Caterpillar Inc.,CAT,Industrials,US,Revolver,BBB,56.83,50.93,53.88,1.5,0.008017,0.4696,0.2004,0.25,0.05,0.0,1273.18
+EXP-0182,Solace Pharma Ltd,,Healthcare,US,Corporate Loan,A,36.66,36.66,36.66,4.0,0.001381,0.3425,0.232,0.214,0.05,0.0,782.72
+EXP-0183,Meta Platforms Inc.,META,Communication Services,US,Corporate Loan,AA,184.79,184.79,184.79,7.0,0.00044,0.3954,0.2374,0.36,0.05,0.0,6661.27
+EXP-0184,Pfizer Inc.,PFE,Healthcare,US,Revolver,A,83.26,73.37,78.31,1.5,0.001489,0.4272,0.2314,0.25,0.05,0.0,1834.25
+EXP-0185,Goldman Sachs Group Inc.,GS,Financials,US,FX Forward,A,115.79,1.11,8.28,1.25,0.001476,0.4743,0.2315,0.0,0.05,0.0,0.0
+EXP-0186,Helios Power Ltd,,Utilities,US,Corporate Loan,B,53.54,53.54,53.54,6.5,0.052266,0.4375,0.1288,0.364,0.05,0.0,1947.42
+EXP-0187,Bastion Aerospace Ltd,,Defence,US,Fixed-Rate Bond,B,5.0,4.9,4.9,5.5,0.051191,0.5749,0.1293,4.423,21.522,4.423,2169.43
+EXP-0188,Alphabet Inc.,GOOGL,Communication Services,US,Floating-Rate Bond,A,19.23,19.36,19.36,4.5,0.001048,0.5277,0.2339,0.222,0.05,3.825,430.74
+EXP-0189,Walmart Inc.,WMT,Consumer Staples,US,FX Forward,AA,64.78,0.37,5.11,0.75,0.000672,0.4306,0.236,0.0,0.05,0.0,0.0
+EXP-0190,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Corporate Loan,BBB,25.14,25.14,25.14,4.0,0.004797,0.4591,0.2144,0.371,0.05,0.0,931.52
+EXP-0191,Crestline Capital Partners,,Financials,DE,Corporate Loan,BB,28.61,28.61,28.61,6.5,0.020559,0.5021,0.1629,0.459,0.05,0.0,1313.95
+EXP-0192,Alphabet Inc.,GOOGL,Communication Services,US,Corporate Loan,A,88.7,88.7,88.7,5.0,0.001208,0.407,0.233,0.484,0.05,0.0,4290.54
+EXP-0193,Oceanic Shipping Ltd,,Shipping & Logistics,SG,Corporate Loan,B,122.71,122.71,122.71,2.0,0.061444,0.4753,0.1256,0.402,0.05,0.0,4931.2
+EXP-0194,Harvest Foods Ltd,,Consumer Staples,IN,Corporate Loan,BBB,32.21,32.21,32.21,5.0,0.003622,0.3219,0.2201,0.256,0.05,0.0,825.66
+EXP-0195,Aurora Petroleum Ltd,,Energy,IN,Revolver,AA,28.13,16.65,22.39,2.0,0.000662,0.4101,0.2361,0.25,0.05,0.0,416.18
+EXP-0196,NVIDIA Corp.,NVDA,Technology,US,Fixed-Rate Bond,BBB,126.45,126.58,126.58,10.0,0.008049,0.591,0.2002,7.576,63.14,7.576,95898.02
+EXP-0197,Riverside Realty Trust,,Real Estate,US,Revolver,BBB,30.83,21.24,26.03,4.5,0.004077,0.538,0.2179,0.25,0.05,0.0,530.95
+EXP-0198,Orion Capital Partners,,Financials,UK,Interest Rate Swap,A,43.01,1.15,1.57,8.5,0.001001,0.3988,0.2341,6.8,50.864,0.0,29247.99
+EXP-0199,Boeing Co.,BA,Industrials,US,Floating-Rate Bond,AA,41.31,41.29,41.29,6.0,0.00035,0.3939,0.2379,0.192,0.05,5.1,792.47
+EXP-0200,Walt Disney Co.,DIS,Communication Services,US,Corporate Loan,BBB,39.57,39.57,39.57,1.5,0.004321,0.5458,0.2167,0.468,0.05,0.0,1853.62
+EXP-0201,Sentry Aerospace Ltd,,Defence,AE,Corporate Loan,BBB,156.58,156.58,156.58,5.5,0.005181,0.4269,0.2126,0.287,0.05,0.0,4500.07
+EXP-0202,Mosaic Foods Ltd,,Consumer Staples,IN,Fixed-Rate Bond,A,20.93,20.69,20.69,8.0,0.001255,0.463,0.2327,6.177,41.97,6.177,12778.02
+EXP-0203,Walt Disney Co.,DIS,Communication Services,US,Fixed-Rate Bond,BBB,16.97,16.22,16.22,5.0,0.004878,0.431,0.214,4.111,18.589,4.111,6666.8
+EXP-0204,Ironbridge Industries Ltd,,Industrials,US,Revolver,BBB,25.43,13.13,19.28,2.0,0.004887,0.4373,0.214,0.25,0.05,0.0,328.33
+EXP-0205,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,38.64,38.64,38.64,2.5,0.00124,0.4241,0.2328,0.294,0.05,0.0,1136.71
+EXP-0206,Caterpillar Inc.,CAT,Industrials,US,Corporate Loan,BBB,8.09,8.09,8.09,6.5,0.003764,0.4987,0.2194,0.429,0.05,0.0,347.11
+EXP-0207,Stratus Capital Partners,,Financials,IN,Interest Rate Swap,A,14.5,-0.6,0.66,4.0,0.001079,0.5147,0.2337,3.2,11.264,0.0,4641.48
+EXP-0208,Alphabet Inc.,GOOGL,Communication Services,US,Corporate Loan,A,7.25,7.25,7.25,6.5,0.001379,0.4386,0.232,0.348,0.05,0.0,252.54
+EXP-0209,Harbourline Shipping Ltd,,Shipping & Logistics,UK,Interest Rate Swap,BBB,199.51,2.24,8.76,8.0,0.003566,0.541,0.2204,6.4,45.056,0.0,-127688.88
+EXP-0210,Monarch Realty Trust,,Real Estate,US,Corporate Loan,BBB,48.35,48.35,48.35,5.5,0.004241,0.3132,0.2171,0.382,0.05,0.0,1846.4
+EXP-0211,Harbourline Shipping Ltd,,Shipping & Logistics,UK,Corporate Loan,BBB,54.89,54.89,54.89,2.5,0.003755,0.3851,0.2195,0.259,0.05,0.0,1419.15
+EXP-0212,Pfizer Inc.,PFE,Healthcare,US,Interest Rate Swap,A,24.2,0.28,1.03,7.5,0.001157,0.4265,0.2333,6.0,39.6,0.0,-14517.53
+EXP-0213,Walt Disney Co.,DIS,Communication Services,US,Fixed-Rate Bond,BBB,15.98,15.54,15.54,5.5,0.004686,0.5438,0.2149,4.921,26.635,4.921,7644.49
+EXP-0214,Caterpillar Inc.,CAT,Industrials,US,Corporate Loan,BBB,33.55,33.55,33.55,2.5,0.004485,0.3328,0.2159,0.432,0.05,0.0,1447.71
+EXP-0215,Walmart Inc.,WMT,Consumer Staples,US,Corporate Loan,AA,91.1,91.1,91.1,3.0,0.000673,0.4108,0.236,0.212,0.05,0.0,1927.51
+EXP-0216,Ironbridge Industries Ltd,,Industrials,US,Corporate Loan,BBB,36.36,36.36,36.36,7.0,0.002504,0.4766,0.2259,0.424,0.05,0.0,1541.98
+EXP-0217,Walmart Inc.,WMT,Consumer Staples,US,Revolver,AA,13.19,9.04,11.12,4.0,0.000417,0.4727,0.2375,0.25,0.05,0.0,226.05
+EXP-0218,Boeing Co.,BA,Industrials,US,Revolver,AA,48.41,21.67,35.04,4.5,0.000383,0.4467,0.2377,0.25,0.05,0.0,541.65
+EXP-0219,Meta Platforms Inc.,META,Communication Services,US,Revolver,AA,12.83,7.42,10.12,1.5,0.000568,0.4617,0.2366,0.25,0.05,0.0,185.43
+EXP-0220,Bright Power Ltd,,Utilities,UK,Floating-Rate Bond,BBB,50.37,49.41,49.41,3.0,0.004589,0.4593,0.2154,0.151,0.05,2.55,745.89
+EXP-0221,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,9.65,9.65,9.65,5.0,0.001386,0.4228,0.232,0.211,0.05,0.0,203.23
+EXP-0222,Lakeshore Retail Group,,Consumer Discretionary,US,Corporate Loan,BBB,46.66,46.66,46.66,3.5,0.002504,0.5154,0.2259,0.455,0.05,0.0,2124.28
+EXP-0223,NVIDIA Corp.,NVDA,Technology,US,Interest Rate Swap,BBB,15.07,0.03,0.23,2.5,0.00483,0.5151,0.2143,2.0,4.4,0.0,3014.82
+EXP-0224,Evergreen Foods Ltd,,Consumer Staples,IN,Revolver,BB,40.27,30.07,35.17,1.5,0.01701,0.3052,0.1713,0.25,0.05,0.0,751.83
+EXP-0225,Meta Platforms Inc.,META,Communication Services,US,Corporate Loan,AA,41.75,41.75,41.75,4.0,0.00067,0.4093,0.236,0.352,0.05,0.0,1467.78
+EXP-0226,Pinnacle Retail Group,,Consumer Discretionary,DE,Interest Rate Swap,A,110.74,-0.64,3.42,8.5,0.000811,0.4733,0.2352,6.8,50.864,0.0,75303.24
+EXP-0227,Sentry Aerospace Ltd,,Defence,AE,Floating-Rate Bond,BBB,44.34,43.63,43.63,3.0,0.007054,0.5715,0.2043,0.228,0.05,2.55,993.2
+EXP-0228,Alphabet Inc.,GOOGL,Communication Services,US,Revolver,A,40.06,18.85,29.46,5.0,0.001008,0.4446,0.2341,0.25,0.05,0.0,471.18
+EXP-0229,Falcon Aerospace Ltd,,Defence,SG,Interest Rate Swap,BB,57.33,-1.39,1.96,4.0,0.016431,0.4064,0.1728,3.2,11.264,0.0,18346.92
+EXP-0230,Microsoft Corp.,MSFT,Technology,US,Corporate Loan,A,17.61,17.61,17.61,3.0,0.001023,0.4584,0.234,0.349,0.05,0.0,614.08
+EXP-0231,Skyline Realty Trust,,Real Estate,US,Corporate Loan,AA,35.72,35.72,35.72,4.5,0.000437,0.3256,0.2374,0.484,0.05,0.0,1727.31
+EXP-0232,Skyline Realty Trust,,Real Estate,US,Floating-Rate Bond,AA,46.14,45.73,45.73,3.5,0.000905,0.3957,0.2347,0.256,0.05,2.975,1170.11
+EXP-0233,Microsoft Corp.,MSFT,Technology,US,FX Forward,A,26.95,0.04,1.81,0.5,0.001273,0.5642,0.2326,0.0,0.05,0.0,0.0
+EXP-0234,Caterpillar Inc.,CAT,Industrials,US,Fixed-Rate Bond,BBB,90.81,92.17,92.17,2.0,0.005282,0.4932,0.2121,1.605,2.833,1.605,14792.25
+EXP-0235,Bastion Aerospace Ltd,,Defence,US,Interest Rate Swap,B,25.08,-0.2,0.42,9.5,0.064965,0.3661,0.1247,7.6,63.536,0.0,-19058.22
+EXP-0236,NVIDIA Corp.,NVDA,Technology,US,FX Forward,BBB,98.57,0.1,7.03,0.5,0.003942,0.4544,0.2185,0.0,0.05,0.0,0.0
+EXP-0237,Crestline Capital Partners,,Financials,DE,Interest Rate Swap,BB,39.03,-0.84,1.09,5.5,0.018854,0.3679,0.1667,4.4,21.296,0.0,17171.19
+EXP-0238,Tesla Inc.,TSLA,Consumer Discretionary,US,Floating-Rate Bond,BBB,43.73,42.85,42.85,4.5,0.003242,0.5403,0.222,0.268,0.05,3.825,1150.04
+EXP-0239,Granite Industries Ltd,,Industrials,DE,Corporate Loan,A,51.42,51.42,51.42,1.5,0.0015,0.3735,0.2313,0.292,0.05,0.0,1502.87
+EXP-0240,Bright Power Ltd,,Utilities,UK,Corporate Loan,BBB,25.44,25.44,25.44,2.5,0.0069,0.5561,0.205,0.366,0.05,0.0,931.87
+EXP-0241,Crestline Capital Partners,,Financials,DE,Corporate Loan,BB,15.61,15.61,15.61,2.5,0.012814,0.3566,0.1832,0.402,0.05,0.0,628.19
+EXP-0242,Caterpillar Inc.,CAT,Industrials,US,Revolver,BBB,15.11,8.53,11.82,5.0,0.009084,0.4229,0.1962,0.25,0.05,0.0,213.3
+EXP-0243,Mosaic Foods Ltd,,Consumer Staples,IN,Revolver,A,156.61,105.21,130.91,2.0,0.001292,0.3692,0.2325,0.25,0.05,0.0,2630.37
+EXP-0244,Blue Horizon Shipping Ltd,,Shipping & Logistics,US,Fixed-Rate Bond,BBB,128.86,127.74,127.74,3.0,0.003519,0.5413,0.2206,2.467,6.693,2.467,31509.31
+EXP-0245,United Parcel Service Inc.,UPS,Shipping & Logistics,US,FX Forward,A,11.19,0.03,0.46,0.25,0.000793,0.4495,0.2353,0.0,0.05,0.0,0.0
+EXP-0246,Caterpillar Inc.,CAT,Industrials,US,Floating-Rate Bond,BBB,9.09,9.02,9.02,6.5,0.003909,0.4734,0.2187,0.131,0.05,5.525,118.09
+EXP-0247,Crestline Capital Partners,,Financials,DE,Corporate Loan,BB,31.35,31.35,31.35,1.0,0.01535,0.3047,0.1757,0.324,0.05,0.0,1014.85
+EXP-0248,Bright Power Ltd,,Utilities,UK,Revolver,BBB,41.29,37.13,39.21,3.0,0.002747,0.4664,0.2246,0.25,0.05,0.0,928.31
+EXP-0249,JPMorgan Chase & Co.,JPM,Financials,US,Corporate Loan,A,27.64,27.64,27.64,6.5,0.001515,0.449,0.2312,0.498,0.05,0.0,1376.51
+EXP-0250,Orion Capital Partners,,Financials,UK,Interest Rate Swap,A,74.02,0.72,3.21,4.5,0.00142,0.5016,0.2318,3.6,14.256,0.0,-26645.42
+EXP-0251,Falcon Aerospace Ltd,,Defence,SG,FX Forward,BB,33.37,0.02,1.54,1.0,0.016638,0.4847,0.1722,0.0,0.05,0.0,0.0
+EXP-0252,Northwind Petroleum Ltd,,Energy,SG,Fixed-Rate Bond,A,32.52,32.85,32.85,8.5,0.001036,0.5007,0.2339,6.8,50.868,6.8,22335.51
+EXP-0253,Tesla Inc.,TSLA,Consumer Discretionary,US,Interest Rate Swap,BBB,14.02,0.01,0.45,2.0,0.004088,0.4897,0.2178,1.6,2.816,0.0,-2243.55
+EXP-0254,Tesla Inc.,TSLA,Consumer Discretionary,US,Fixed-Rate Bond,BBB,31.48,30.05,30.05,7.5,0.004314,0.5626,0.2167,6.279,43.375,6.279,18867.25
+EXP-0255,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Fixed-Rate Bond,BBB,67.58,66.6,66.6,2.5,0.005813,0.5174,0.2097,1.902,3.979,1.902,12666.69
+EXP-0256,Apple Inc.,AAPL,Technology,US,Corporate Loan,BBB,68.83,68.83,68.83,3.0,0.005596,0.3863,0.2107,0.245,0.05,0.0,1686.52
+EXP-0257,Harvest Foods Ltd,,Consumer Staples,IN,Fixed-Rate Bond,BBB,17.07,16.89,16.89,6.5,0.007073,0.5855,0.2043,5.168,29.376,5.168,8728.79
+EXP-0258,Coca-Cola Co.,KO,Consumer Staples,US,Corporate Loan,A,124.78,124.78,124.78,4.0,0.000726,0.436,0.2357,0.206,0.05,0.0,2564.65
+EXP-0259,Lumen Systems Inc.,,Technology,SG,Floating-Rate Bond,A,11.47,11.45,11.45,6.5,0.000987,0.4318,0.2342,0.121,0.05,5.525,138.1
+EXP-0260,JPMorgan Chase & Co.,JPM,Financials,US,Corporate Loan,A,25.12,25.12,25.12,4.5,0.001072,0.3555,0.2337,0.324,0.05,0.0,814.29
+EXP-0261,Summit Power Ltd,,Utilities,UK,Corporate Loan,BBB,64.8,64.8,64.8,3.5,0.005253,0.3503,0.2123,0.205,0.05,0.0,1330.62
+EXP-0262,Apple Inc.,AAPL,Technology,US,Floating-Rate Bond,BBB,27.47,27.71,27.71,3.0,0.005166,0.325,0.2127,0.21,0.05,2.55,582.09
+EXP-0263,Lumen Systems Inc.,,Technology,SG,Fixed-Rate Bond,A,24.44,24.33,24.33,9.5,0.000832,0.4344,0.2351,7.344,59.325,7.344,17868.81
+EXP-0264,Evergreen Foods Ltd,,Consumer Staples,IN,Interest Rate Swap,BB,98.7,-1.77,4.81,8.0,0.011632,0.502,0.1871,6.4,45.056,0.0,63167.2
+EXP-0265,Tesla Inc.,TSLA,Consumer Discretionary,US,Corporate Loan,BBB,28.96,28.96,28.96,4.5,0.003211,0.5163,0.2222,0.42,0.05,0.0,1217.14
+EXP-0266,Johnson & Johnson,JNJ,Healthcare,US,Interest Rate Swap,A,23.27,-0.28,1.1,10.0,0.000883,0.3192,0.2348,8.0,70.4,0.0,-18614.05
+EXP-0267,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Corporate Loan,BBB,21.91,21.91,21.91,2.5,0.003619,0.5401,0.2201,0.302,0.05,0.0,661.65
+EXP-0268,Mosaic Foods Ltd,,Consumer Staples,IN,Corporate Loan,A,9.66,9.66,9.66,1.0,0.000929,0.4745,0.2346,0.356,0.05,0.0,343.84
+EXP-0269,Sentry Aerospace Ltd,,Defence,AE,Fixed-Rate Bond,BBB,25.03,25.55,25.55,9.0,0.004205,0.4858,0.2172,7.411,60.407,7.411,18933.75
+EXP-0270,Veritas Pharma Ltd,,Healthcare,SG,Corporate Loan,BB,48.4,48.4,48.4,3.5,0.018305,0.4058,0.168,0.332,0.05,0.0,1608.59
+EXP-0271,Bank of America Corp.,BAC,Financials,US,Corporate Loan,BBB,155.42,155.42,155.42,1.5,0.005455,0.3064,0.2114,0.312,0.05,0.0,4850.98
+EXP-0272,Apple Inc.,AAPL,Technology,US,Corporate Loan,BBB,59.13,59.13,59.13,3.0,0.004535,0.4049,0.2157,0.443,0.05,0.0,2620.19
+EXP-0273,Quanta Systems Inc.,,Technology,US,Corporate Loan,BBB,46.88,46.88,46.88,3.5,0.003679,0.3384,0.2198,0.303,0.05,0.0,1422.56
+EXP-0274,Lakeshore Retail Group,,Consumer Discretionary,US,FX Forward,BBB,48.14,0.04,2.13,1.5,0.004855,0.4445,0.2141,0.0,0.05,0.0,0.0
+EXP-0275,Clearwater Power Ltd,,Utilities,UK,FX Forward,AA,27.86,-0.19,1.6,1.0,0.000532,0.3657,0.2368,0.0,0.05,0.0,0.0
+EXP-0276,Falcon Aerospace Ltd,,Defence,SG,Corporate Loan,BB,16.45,16.45,16.45,1.5,0.010934,0.5266,0.1895,0.297,0.05,0.0,488.75
+EXP-0277,United Parcel Service Inc.,UPS,Shipping & Logistics,US,Corporate Loan,A,45.44,45.44,45.44,6.0,0.001017,0.4549,0.234,0.351,0.05,0.0,1595.82
+EXP-0278,Clearwater Power Ltd,,Utilities,UK,Revolver,AA,21.26,12.81,17.04,5.0,0.000358,0.3617,0.2379,0.25,0.05,0.0,320.37
+EXP-0279,Bank of America Corp.,BAC,Financials,US,Interest Rate Swap,BBB,47.14,-0.34,2.31,4.0,0.005307,0.4262,0.212,3.2,11.264,0.0,-15086.1
+EXP-0280,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,27.63,27.63,27.63,2.0,0.000936,0.4377,0.2345,0.254,0.05,0.0,702.85
+EXP-0281,Chevron Corp.,CVX,Energy,US,Revolver,A,185.31,95.76,140.54,3.0,0.000936,0.4896,0.2345,0.25,0.05,0.0,2394.12
+EXP-0282,Walmart Inc.,WMT,Consumer Staples,US,Interest Rate Swap,AA,16.29,0.19,0.49,5.5,0.001021,0.472,0.234,4.4,21.296,0.0,7167.33
+EXP-0283,Saffron Retail Group,,Consumer Discretionary,US,Interest Rate Swap,A,9.4,-0.08,0.36,3.0,0.001846,0.4664,0.2294,2.4,6.336,0.0,2256.0
+EXP-0284,Aurora Petroleum Ltd,,Energy,IN,Fixed-Rate Bond,AA,34.83,34.8,34.8,10.0,0.000571,0.4882,0.2366,7.521,62.225,7.521,26174.08
+EXP-0285,Microsoft Corp.,MSFT,Technology,US,Corporate Loan,A,8.22,8.22,8.22,3.0,0.00104,0.3428,0.2339,0.21,0.05,0.0,172.51
+EXP-0286,Johnson & Johnson,JNJ,Healthcare,US,Revolver,A,7.13,3.54,5.33,2.0,0.001329,0.4732,0.2323,0.25,0.05,0.0,88.53
+EXP-0287,Walmart Inc.,WMT,Consumer Staples,US,Floating-Rate Bond,AA,90.63,89.74,89.74,4.0,0.000427,0.5281,0.2375,0.206,0.05,3.4,1851.93
+EXP-0288,Aurum Retail Group,,Consumer Discretionary,US,Interest Rate Swap,BBB,44.45,0.55,1.81,9.5,0.005594,0.4017,0.2107,7.6,63.536,0.0,33782.46
+EXP-0289,Alphabet Inc.,GOOGL,Communication Services,US,FX Forward,A,49.12,-0.84,3.09,1.25,0.001455,0.4332,0.2316,0.0,0.05,0.0,0.0
+EXP-0290,Saffron Retail Group,,Consumer Discretionary,US,Fixed-Rate Bond,A,17.31,16.82,16.82,4.5,0.001359,0.5547,0.2321,3.655,14.691,3.655,6147.96
+EXP-0291,Bank of America Corp.,BAC,Financials,US,Revolver,BBB,32.51,26.91,29.71,1.0,0.004623,0.4629,0.2152,0.25,0.05,0.0,672.65
+EXP-0292,Boeing Co.,BA,Industrials,US,Corporate Loan,AA,41.44,41.44,41.44,1.0,0.000497,0.4316,0.2371,0.277,0.05,0.0,1148.77
+EXP-0293,Chevron Corp.,CVX,Energy,US,Fixed-Rate Bond,A,56.08,56.97,56.97,5.5,0.002153,0.4773,0.2278,4.337,20.689,4.337,24706.07
+EXP-0294,Bastion Aerospace Ltd,,Defence,US,Interest Rate Swap,B,30.19,0.38,1.29,9.5,0.068498,0.4443,0.1239,7.6,63.536,0.0,22947.82
+EXP-0295,Clearwater Power Ltd,,Utilities,UK,Corporate Loan,AA,54.83,54.83,54.83,3.0,0.000395,0.4762,0.2377,0.218,0.05,0.0,1193.44
+EXP-0296,NVIDIA Corp.,NVDA,Technology,US,Revolver,BBB,38.02,26.53,32.27,4.0,0.003641,0.3855,0.22,0.25,0.05,0.0,663.19
+EXP-0297,Riverside Realty Trust,,Real Estate,US,Corporate Loan,BBB,52.19,52.19,52.19,1.5,0.003736,0.3887,0.2196,0.415,0.05,0.0,2168.1
+EXP-0298,Meta Platforms Inc.,META,Communication Services,US,FX Forward,AA,63.57,0.83,3.44,1.0,0.000582,0.5248,0.2366,0.0,0.05,0.0,0.0
+EXP-0299,Meta Platforms Inc.,META,Communication Services,US,Interest Rate Swap,AA,22.16,-0.28,0.62,4.5,0.000464,0.377,0.2372,3.6,14.256,0.0,-7976.72
+EXP-0300,Riverside Realty Trust,,Real Estate,US,Corporate Loan,BBB,58.77,58.77,58.77,4.5,0.004099,0.5473,0.2178,0.212,0.05,0.0,1243.81
+EXP-0301,Keystone Capital Partners,,Financials,US,Corporate Loan,AAA,17.94,17.94,17.94,1.0,0.000201,0.4127,0.2388,0.425,0.05,0.0,761.61
+EXP-0302,Exxon Mobil Corp.,XOM,Energy,US,Revolver,BBB,62.06,20.87,41.47,3.0,0.003505,0.4522,0.2207,0.25,0.05,0.0,521.87
+EXP-0303,Pfizer Inc.,PFE,Healthcare,US,Corporate Loan,A,34.63,34.63,34.63,2.5,0.001137,0.3712,0.2334,0.388,0.05,0.0,1343.82
+EXP-0304,Blue Horizon Shipping Ltd,,Shipping & Logistics,US,Floating-Rate Bond,BBB,43.01,43.39,43.39,3.5,0.004015,0.5263,0.2182,0.204,0.05,2.975,886.79
+EXP-0305,NVIDIA Corp.,NVDA,Technology,US,Revolver,BBB,75.28,67.15,71.21,3.5,0.006215,0.5567,0.2079,0.25,0.05,0.0,1678.76
+EXP-0306,Coastal Arc Shipping Ltd,,Shipping & Logistics,IN,Corporate Loan,A,40.36,40.36,40.36,1.0,0.000828,0.4256,0.2351,0.417,0.05,0.0,1683.24
+EXP-0307,Lumen Systems Inc.,,Technology,SG,Floating-Rate Bond,A,21.19,21.29,21.29,5.0,0.001246,0.5348,0.2328,0.107,0.05,4.25,228.45
+EXP-0308,Skyline Realty Trust,,Real Estate,US,Fixed-Rate Bond,AA,58.97,57.62,57.62,2.0,0.000397,0.4374,0.2376,1.711,3.221,1.711,9858.87
+EXP-0309,Monarch Realty Trust,,Real Estate,US,Floating-Rate Bond,BBB,19.43,19.08,19.08,3.0,0.003679,0.4164,0.2198,0.294,0.05,2.55,561.61
+EXP-0310,Goldman Sachs Group Inc.,GS,Financials,US,Corporate Loan,A,24.35,24.35,24.35,1.0,0.001184,0.4899,0.2331,0.213,0.05,0.0,518.5
+EXP-0311,Helios Power Ltd,,Utilities,US,Floating-Rate Bond,B,68.65,67.92,67.92,6.5,0.037204,0.5199,0.1387,0.187,0.05,5.525,1271.71
+EXP-0312,Caterpillar Inc.,CAT,Industrials,US,Fixed-Rate Bond,BBB,62.15,59.44,59.44,7.0,0.004286,0.5287,0.2169,5.654,35.163,5.654,33605.79
+EXP-0313,Goldman Sachs Group Inc.,GS,Financials,US,Corporate Loan,A,33.7,33.7,33.7,7.0,0.001071,0.445,0.2337,0.349,0.05,0.0,1175.7
+EXP-0314,NVIDIA Corp.,NVDA,Technology,US,Revolver,BBB,82.73,73.76,78.25,2.0,0.003269,0.5632,0.2219,0.25,0.05,0.0,1844.11
+EXP-0315,Nimbus Systems Inc.,,Technology,US,Revolver,BBB,107.46,56.53,81.99,2.0,0.005932,0.4666,0.2092,0.25,0.05,0.0,1413.15
+EXP-0316,Boeing Co.,BA,Industrials,US,Fixed-Rate Bond,AA,69.89,69.57,69.57,9.0,0.000559,0.5685,0.2367,6.843,51.514,6.843,47606.53
+EXP-0317,Evergreen Foods Ltd,,Consumer Staples,IN,Corporate Loan,BB,101.58,101.58,101.58,3.0,0.028536,0.375,0.1488,0.22,0.05,0.0,2233.92
+EXP-0318,Alphabet Inc.,GOOGL,Communication Services,US,Corporate Loan,A,27.02,27.02,27.02,4.5,0.001076,0.4422,0.2337,0.27,0.05,0.0,730.74
+EXP-0319,Pinnacle Retail Group,,Consumer Discretionary,DE,Revolver,A,40.43,36.12,38.28,4.5,0.001281,0.4996,0.2326,0.25,0.05,0.0,903.07
+EXP-0320,NVIDIA Corp.,NVDA,Technology,US,Revolver,BBB,41.83,29.75,35.79,1.5,0.004187,0.4743,0.2173,0.25,0.05,0.0,743.68
+EXP-0321,Johnson & Johnson,JNJ,Healthcare,US,Fixed-Rate Bond,A,55.95,54.62,54.62,7.5,0.001204,0.357,0.233,5.969,39.187,5.969,32598.05
+EXP-0322,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Interest Rate Swap,BBB,129.65,1.94,5.69,6.5,0.003052,0.4656,0.223,5.2,29.744,0.0,-67417.37
+EXP-0323,Apple Inc.,AAPL,Technology,US,Corporate Loan,BBB,42.8,42.8,42.8,2.0,0.00585,0.4706,0.2096,0.213,0.05,0.0,913.69
+EXP-0324,Quanta Systems Inc.,,Technology,US,Floating-Rate Bond,BBB,7.73,7.5,7.5,8.0,0.003531,0.4894,0.2206,0.219,0.05,6.8,164.3
+EXP-0325,Tesla Inc.,TSLA,Consumer Discretionary,US,Corporate Loan,BBB,72.85,72.85,72.85,4.5,0.004458,0.4319,0.216,0.438,0.05,0.0,3188.64
+EXP-0326,Saffron Retail Group,,Consumer Discretionary,US,Corporate Loan,A,45.1,45.1,45.1,4.5,0.001624,0.5143,0.2306,0.289,0.05,0.0,1304.48
+EXP-0327,Veritas Pharma Ltd,,Healthcare,SG,FX Forward,BB,30.18,0.76,1.07,0.5,0.019844,0.4267,0.1645,0.0,0.05,0.0,0.0
+EXP-0328,NVIDIA Corp.,NVDA,Technology,US,Interest Rate Swap,BBB,16.58,-0.06,0.67,6.5,0.004118,0.3036,0.2177,5.2,29.744,0.0,8622.92
+EXP-0329,NVIDIA Corp.,NVDA,Technology,US,Fixed-Rate Bond,BBB,41.39,41.83,41.83,2.5,0.005483,0.408,0.2112,2.186,5.254,2.186,9141.37
+EXP-0330,Exxon Mobil Corp.,XOM,Energy,US,Fixed-Rate Bond,BBB,24.47,24.55,24.55,2.5,0.00445,0.3823,0.2161,2.039,4.573,2.039,5005.77
+EXP-0331,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Corporate Loan,BBB,51.21,51.21,51.21,4.5,0.003367,0.3935,0.2214,0.344,0.05,0.0,1763.71
+EXP-0332,Pfizer Inc.,PFE,Healthcare,US,Fixed-Rate Bond,A,64.06,64.55,64.55,4.5,0.001008,0.448,0.2341,3.808,15.951,3.808,24580.69
+EXP-0333,Meta Platforms Inc.,META,Communication Services,US,Corporate Loan,AA,30.12,30.12,30.12,5.0,0.000437,0.3659,0.2374,0.462,0.05,0.0,1391.26
+EXP-0334,Quanta Systems Inc.,,Technology,US,Corporate Loan,BBB,12.63,12.63,12.63,6.5,0.003735,0.3821,0.2196,0.378,0.05,0.0,477.33
+EXP-0335,Caterpillar Inc.,CAT,Industrials,US,Interest Rate Swap,BBB,9.02,-0.04,0.22,9.0,0.004615,0.518,0.2153,7.2,57.024,0.0,-6497.52
+EXP-0336,Johnson & Johnson,JNJ,Healthcare,US,FX Forward,A,39.46,0.72,1.39,0.25,0.001551,0.3889,0.231,0.0,0.05,0.0,0.0
+EXP-0337,Pfizer Inc.,PFE,Healthcare,US,Floating-Rate Bond,A,18.59,18.48,18.48,5.5,0.001286,0.5597,0.2325,0.292,0.05,4.675,539.34
+EXP-0338,Summit Power Ltd,,Utilities,UK,Interest Rate Swap,BBB,63.17,-0.92,1.17,2.5,0.008628,0.4274,0.198,2.0,4.4,0.0,12633.86
+EXP-0339,Veritas Pharma Ltd,,Healthcare,SG,FX Forward,BB,77.03,-0.41,2.52,1.25,0.017173,0.4003,0.1708,0.0,0.05,0.0,0.0
+EXP-0340,Blue Horizon Shipping Ltd,,Shipping & Logistics,US,Fixed-Rate Bond,BBB,88.73,85.14,85.14,7.5,0.003285,0.4212,0.2218,5.734,36.165,5.734,48820.35
+EXP-0341,Amazon.com Inc.,AMZN,Consumer Discretionary,US,Corporate Loan,BBB,22.8,22.8,22.8,3.5,0.004031,0.4994,0.2181,0.265,0.05,0.0,603.1
+EXP-0342,Johnson & Johnson,JNJ,Healthcare,US,Fixed-Rate Bond,A,27.66,28.3,28.3,5.5,0.000956,0.5022,0.2344,4.87,26.084,4.87,13780.96
+EXP-0343,Crestline Capital Partners,,Financials,DE,Fixed-Rate Bond,BB,73.6,70.01,70.01,3.0,0.012034,0.513,0.1857,2.681,7.907,2.681,18771.7
+EXP-0344,Johnson & Johnson,JNJ,Healthcare,US,Corporate Loan,A,36.5,36.5,36.5,3.0,0.001693,0.4199,0.2303,0.331,0.05,0.0,1208.64
+EXP-0345,Bastion Aerospace Ltd,,Defence,US,Corporate Loan,B,73.82,73.82,73.82,4.0,0.065673,0.5526,0.1245,0.288,0.05,0.0,2127.43
+EXP-0346,Stratus Capital Partners,,Financials,IN,FX Forward,A,25.8,0.14,1.11,1.0,0.001544,0.4791,0.2311,0.0,0.05,0.0,0.0
+EXP-0347,Lumen Systems Inc.,,Technology,SG,Fixed-Rate Bond,A,135.13,133.96,133.96,7.5,0.001111,0.4639,0.2335,6.304,43.721,6.304,84453.12
+EXP-0348,Meta Platforms Inc.,META,Communication Services,US,Fixed-Rate Bond,AA,76.16,75.75,75.75,5.0,0.000716,0.5333,0.2358,4.313,20.465,4.313,32670.88
+EXP-0349,Crestline Capital Partners,,Financials,DE,Fixed-Rate Bond,BB,166.45,159.76,159.76,2.0,0.014219,0.392,0.1789,1.778,3.477,1.778,28402.83
+EXP-0350,Alphabet Inc.,GOOGL,Communication Services,US,Corporate Loan,A,37.82,37.82,37.82,4.5,0.001048,0.4889,0.2339,0.3,0.05,0.0,1135.8
+EXP-0351,Pfizer Inc.,PFE,Healthcare,US,Floating-Rate Bond,A,44.94,44.76,44.76,4.5,0.000965,0.4481,0.2343,0.125,0.05,3.825,559.01
+EXP-0352,Alphabet Inc.,GOOGL,Communication Services,US,Revolver,A,66.28,36.24,51.26,3.5,0.001108,0.4972,0.2335,0.25,0.05,0.0,905.9
+EXP-0353,Mosaic Foods Ltd,,Consumer Staples,IN,Corporate Loan,A,31.17,31.17,31.17,7.0,0.000778,0.45,0.2354,0.384,0.05,0.0,1197.63
+EXP-0354,Chevron Corp.,CVX,Energy,US,Interest Rate Swap,A,28.27,0.17,0.59,6.0,0.00071,0.5004,0.2358,4.8,25.344,0.0,-13571.99
+EXP-0355,Skyline Realty Trust,,Real Estate,US,Interest Rate Swap,AA,53.31,1.06,1.02,4.5,0.000664,0.3935,0.2361,3.6,14.256,0.0,19190.08
+EXP-0356,Boeing Co.,BA,Industrials,US,Fixed-Rate Bond,AA,9.4,9.12,9.12,2.5,0.000723,0.511,0.2357,1.906,3.996,1.906,1737.39
+EXP-0357,Crestline Capital Partners,,Financials,DE,Fixed-Rate Bond,BB,20.83,20.56,20.56,4.0,0.021139,0.4405,0.1617,3.126,10.746,3.126,6425.78
+EXP-0358,Harvest Foods Ltd,,Consumer Staples,IN,Floating-Rate Bond,BBB,52.5,51.53,51.53,3.5,0.006402,0.5186,0.2071,0.276,0.05,2.975,1423.94
+EXP-0359,Keystone Capital Partners,,Financials,US,Interest Rate Swap,AAA,224.93,1.59,9.57,9.0,0.000163,0.5243,0.239,7.2,57.024,0.0,-161952.42
+EXP-0360,Pfizer Inc.,PFE,Healthcare,US,Fixed-Rate Bond,A,91.79,88.86,88.86,8.0,0.001174,0.5123,0.2332,7.009,54.036,7.009,62279.9
+EXP-0361,JPMorgan Chase & Co.,JPM,Financials,US,Revolver,A,18.08,6.18,12.13,2.5,0.00086,0.3499,0.2349,0.25,0.05,0.0,154.58
+EXP-0362,Lumen Systems Inc.,,Technology,SG,Revolver,A,29.23,17.04,23.14,5.0,0.001013,0.4495,0.2341,0.25,0.05,0.0,426.08
+EXP-0363,United Parcel Service Inc.,UPS,Shipping & Logistics,US,Floating-Rate Bond,A,150.62,150.93,150.93,2.0,0.001265,0.4669,0.2326,0.271,0.05,1.7,4086.07
+EXP-0364,Bank of America Corp.,BAC,Financials,US,Floating-Rate Bond,BBB,129.26,128.86,128.86,4.0,0.004603,0.4408,0.2153,0.151,0.05,3.4,1946.04
+EXP-0365,Pfizer Inc.,PFE,Healthcare,US,Interest Rate Swap,A,99.59,1.03,4.26,6.0,0.001105,0.4372,0.2335,4.8,25.344,0.0,47802.5
+EXP-0366,Cedar Realty Trust,,Real Estate,SG,Fixed-Rate Bond,BBB,64.06,65.02,65.02,2.0,0.006461,0.4906,0.2069,1.713,3.227,1.713,11136.72
+EXP-0367,Coca-Cola Co.,KO,Consumer Staples,US,Corporate Loan,A,50.49,50.49,50.49,3.5,0.000921,0.3061,0.2346,0.492,0.05,0.0,2482.25
+EXP-0368,Skyline Realty Trust,,Real Estate,US,Corporate Loan,AA,39.34,39.34,39.34,4.0,0.000394,0.4092,0.2377,0.204,0.05,0.0,801.19
+EXP-0369,Saffron Retail Group,,Consumer Discretionary,US,Revolver,A,22.85,9.16,16.0,5.0,0.00084,0.4246,0.2351,0.25,0.05,0.0,228.9
+EXP-0370,Walt Disney Co.,DIS,Communication Services,US,Revolver,BBB,32.19,15.43,23.81,5.0,0.005349,0.5362,0.2118,0.25,0.05,0.0,385.73
+EXP-0371,Bank of America Corp.,BAC,Financials,US,Revolver,BBB,33.02,20.4,26.71,1.0,0.006656,0.4805,0.206,0.25,0.05,0.0,510.01
+EXP-0372,Alphabet Inc.,GOOGL,Communication Services,US,Interest Rate Swap,A,107.25,1.6,4.43,3.5,0.000828,0.4585,0.2351,2.8,8.624,0.0,30030.24
+EXP-0373,Gulfstream Petroleum Ltd,,Energy,JP,Corporate Loan,B,111.98,111.98,111.98,1.0,0.038629,0.4162,0.1374,0.451,0.05,0.0,5052.87
+EXP-0374,Pinnacle Retail Group,,Consumer Discretionary,DE,Interest Rate Swap,A,85.83,0.64,2.66,8.0,0.000967,0.5014,0.2343,6.4,45.056,0.0,-54930.62
+EXP-0375,Exxon Mobil Corp.,XOM,Energy,US,Corporate Loan,BBB,103.32,103.32,103.32,5.0,0.004306,0.444,0.2168,0.334,0.05,0.0,3446.42
+EXP-0376,Vanguard Aerospace Ltd,,Defence,UK,Corporate Loan,A,36.53,36.53,36.53,2.0,0.001178,0.3516,0.2331,0.215,0.05,0.0,784.21
+EXP-0377,Stratus Capital Partners,,Financials,IN,Revolver,A,43.85,16.71,30.28,4.5,0.001556,0.3848,0.231,0.25,0.05,0.0,417.84
+EXP-0378,Orion Capital Partners,,Financials,UK,Revolver,A,9.99,7.11,8.55,4.0,0.001094,0.3957,0.2336,0.25,0.05,0.0,177.78
+EXP-0379,Pfizer Inc.,PFE,Healthcare,US,Interest Rate Swap,A,14.55,-0.26,0.72,7.5,0.001069,0.4485,0.2338,6.0,39.6,0.0,8727.77
+EXP-0380,Chevron Corp.,CVX,Energy,US,Fixed-Rate Bond,A,33.14,34.13,34.13,9.0,0.00097,0.5389,0.2343,7.415,60.478,7.415,25306.88
+EXP-0381,Meta Platforms Inc.,META,Communication Services,US,Corporate Loan,AA,90.42,90.42,90.42,4.5,0.000445,0.41,0.2374,0.255,0.05,0.0,2307.05
+EXP-0382,Cedar Realty Trust,,Real Estate,SG,Fixed-Rate Bond,BBB,54.71,52.1,52.1,8.0,0.00463,0.5647,0.2152,6.67,48.944,6.67,34752.75
+EXP-0383,Caterpillar Inc.,CAT,Industrials,US,Interest Rate Swap,BBB,52.15,0.68,2.52,7.5,0.003004,0.418,0.2233,6.0,39.6,0.0,31289.64
+EXP-0384,United Parcel Service Inc.,UPS,Shipping & Logistics,US,Corporate Loan,A,22.96,22.96,22.96,4.0,0.001475,0.4662,0.2315,0.267,0.05,0.0,612.02
+EXP-0385,Titan Industries Ltd,,Industrials,IN,Fixed-Rate Bond,BB,32.9,32.96,32.96,8.0,0.028984,0.5334,0.1482,6.325,44.0,6.325,20847.97
+EXP-0386,Pinnacle Retail Group,,Consumer Discretionary,DE,Revolver,A,17.82,7.58,12.7,4.0,0.00136,0.514,0.2321,0.25,0.05,0.0,189.6
+EXP-0387,NVIDIA Corp.,NVDA,Technology,US,Floating-Rate Bond,BBB,40.35,39.75,39.75,3.5,0.004022,0.5888,0.2181,0.186,0.05,2.975,740.41
+EXP-0388,Mosaic Foods Ltd,,Consumer Staples,IN,Interest Rate Swap,A,26.47,0.27,0.7,10.0,0.001125,0.4844,0.2334,8.0,70.4,0.0,-21172.39
+EXP-0389,Meta Platforms Inc.,META,Communication Services,US,Revolver,AA,86.9,55.11,71.0,4.5,0.000404,0.4565,0.2376,0.25,0.05,0.0,1377.66
+EXP-0390,Crestline Capital Partners,,Financials,DE,Revolver,BB,49.98,22.48,36.23,2.5,0.013009,0.4119,0.1826,0.25,0.05,0.0,561.89
+EXP-0391,Bank of America Corp.,BAC,Financials,US,Revolver,BBB,26.1,10.36,18.23,3.0,0.003122,0.4968,0.2227,0.25,0.05,0.0,259.1
+EXP-0392,Exxon Mobil Corp.,XOM,Energy,US,Fixed-Rate Bond,BBB,11.66,11.1,11.1,2.0,0.003477,0.5006,0.2208,1.782,3.495,1.782,1978.66
+EXP-0393,Amazon.com Inc.,AMZN,Consumer Discretionary,US,FX Forward,BBB,186.51,4.65,6.42,1.0,0.00575,0.5082,0.21,0.0,0.05,0.0,0.0
+EXP-0394,Crestline Capital Partners,,Financials,DE,Revolver,BB,36.7,31.52,34.11,3.5,0.01589,0.5218,0.1742,0.25,0.05,0.0,787.96
+EXP-0395,Johnson & Johnson,JNJ,Healthcare,US,Fixed-Rate Bond,A,96.13,98.42,98.42,7.0,0.000924,0.4659,0.2346,5.846,37.596,5.846,57540.42
+EXP-0396,Blue Horizon Shipping Ltd,,Shipping & Logistics,US,Fixed-Rate Bond,BBB,87.33,84.04,84.04,2.0,0.006336,0.5146,0.2074,1.573,2.723,1.573,13222.1
+EXP-0397,Solace Pharma Ltd,,Healthcare,US,FX Forward,A,38.09,-0.13,1.26,1.5,0.000831,0.488,0.2351,0.0,0.05,0.0,0.0
+EXP-0398,Quanta Systems Inc.,,Technology,US,Revolver,BBB,16.78,11.02,13.9,1.5,0.005112,0.5418,0.2129,0.25,0.05,0.0,275.39
+EXP-0399,Monarch Realty Trust,,Real Estate,US,Fixed-Rate Bond,BBB,9.15,8.76,8.76,8.0,0.004634,0.3654,0.2152,6.294,43.57,6.294,5511.82
+EXP-0400,Coca-Cola Co.,KO,Consumer Staples,US,Floating-Rate Bond,A,20.57,20.19,20.19,4.0,0.0015,0.5451,0.2313,0.184,0.05,3.4,370.74

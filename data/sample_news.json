@@ -1,0 +1,614 @@
+[
+  {
+    "id": "n001",
+    "timestamp": "2026-10-05T09:00:00Z",
+    "source": "gdelt_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n001",
+    "text": "Red Sea shipping halted as missile strikes hit two container vessels; insurers suspend war-risk cover for the corridor.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.6,
+      "credit_polarity": -0.7,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n002",
+    "timestamp": "2026-10-05T09:15:00Z",
+    "source": "newsapi_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n002",
+    "text": "UPS warns of delivery delays and higher freight costs as carriers divert Asia-Europe cargo around Africa.",
+    "synthetic": true,
+    "label": {
+      "ticker": "UPS",
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.4,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n003",
+    "timestamp": "2026-10-05T09:22:00Z",
+    "source": "newsapi_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n003",
+    "text": "UPS cautions on shipping delays and elevated freight costs as carriers divert Asia-Europe cargo around Africa.",
+    "synthetic": true,
+    "label": {
+      "ticker": "UPS",
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.4,
+      "is_sarcastic": false,
+      "duplicate_of": "n002"
+    }
+  },
+  {
+    "id": "n004",
+    "timestamp": "2026-10-05T09:25:00Z",
+    "source": "tweet_replay",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n004",
+    "text": "$XOM sitting pretty as Brent spikes on the Red Sea mess. Oil bulls eating good tonight",
+    "synthetic": true,
+    "label": {
+      "ticker": "XOM",
+      "event_type": "Geopolitical",
+      "equity_polarity": 0.6,
+      "credit_polarity": 0.3,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n005",
+    "timestamp": "2026-10-05T09:40:00Z",
+    "source": "newsapi_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n005",
+    "text": "Brent crude jumps 6% as Red Sea disruption tightens tanker availability.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Geopolitical",
+      "equity_polarity": 0.3,
+      "credit_polarity": 0.1,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n006",
+    "timestamp": "2026-10-05T09:55:00Z",
+    "source": "newsapi_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n006",
+    "text": "Walmart says holiday inventory could be delayed as ocean freight rates surge on Red Sea diversions.",
+    "synthetic": true,
+    "label": {
+      "ticker": "WMT",
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.4,
+      "credit_polarity": -0.2,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n007",
+    "timestamp": "2026-10-05T10:10:00Z",
+    "source": "tweet_replay",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n007",
+    "text": "Amazon logistics costs about to go through the roof lol. Red Sea reroutes = margin pain $AMZN",
+    "synthetic": true,
+    "label": {
+      "ticker": "AMZN",
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.3,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n008",
+    "timestamp": "2026-10-05T10:30:00Z",
+    "source": "gdelt_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n008",
+    "text": "Shipping lenders review exposure as freight insurance premiums triple; analysts flag covenant pressure on leveraged operators.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Credit Event",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.8,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n009",
+    "timestamp": "2026-10-05T11:00:00Z",
+    "source": "newsapi_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n009",
+    "text": "Caterpillar says Asia-sourced components face four-week delays following shipping reroutes.",
+    "synthetic": true,
+    "label": {
+      "ticker": "CAT",
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.3,
+      "credit_polarity": -0.2,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n010",
+    "timestamp": "2026-10-05T11:30:00Z",
+    "source": "newsapi_sample",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n010",
+    "text": "Boeing supplier shipments stall as Red Sea diversions stretch lead times.",
+    "synthetic": true,
+    "label": {
+      "ticker": "BA",
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.4,
+      "credit_polarity": -0.3,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n011",
+    "timestamp": "2026-10-05T12:00:00Z",
+    "source": "tweet_replay",
+    "scenario": "red_sea",
+    "url": "synthetic://sentinel/n011",
+    "text": "Sure, great time to be long global supply chains 🙃 $UPS",
+    "synthetic": true,
+    "label": {
+      "ticker": "UPS",
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.3,
+      "is_sarcastic": true,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n012",
+    "timestamp": "2026-10-06T09:00:00Z",
+    "source": "newsapi_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n012",
+    "text": "Bank of America raises provisions for commercial real estate loans by $1.2 billion, citing office vacancy.",
+    "synthetic": true,
+    "label": {
+      "ticker": "BAC",
+      "event_type": "Credit Event",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.6,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n013",
+    "timestamp": "2026-10-06T09:20:00Z",
+    "source": "newsapi_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n013",
+    "text": "Goldman Sachs reports trading revenue above estimates and lifts its quarterly dividend.",
+    "synthetic": true,
+    "label": {
+      "ticker": "GS",
+      "event_type": "Earnings",
+      "equity_polarity": 0.7,
+      "credit_polarity": 0.4,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n014",
+    "timestamp": "2026-10-06T09:35:00Z",
+    "source": "gdelt_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n014",
+    "text": "Fed signals rates to stay higher for longer as inflation surprises to the upside; 10-year Treasury yield climbs to 5.1%.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Macroeconomic",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.5,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n015",
+    "timestamp": "2026-10-06T09:50:00Z",
+    "source": "tweet_replay",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n015",
+    "text": "Hearing chatter that deposit outflows are picking up across regional banks. Stay careful. $BAC",
+    "synthetic": true,
+    "label": {
+      "ticker": "BAC",
+      "event_type": "Credit Event",
+      "equity_polarity": -0.4,
+      "credit_polarity": -0.5,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n016",
+    "timestamp": "2026-10-06T10:10:00Z",
+    "source": "newsapi_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n016",
+    "text": "Ratings agency places Boeing on negative watch, citing rising debt and production delays.",
+    "synthetic": true,
+    "label": {
+      "ticker": "BA",
+      "event_type": "Credit Event",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.9,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n017",
+    "timestamp": "2026-10-06T10:30:00Z",
+    "source": "newsapi_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n017",
+    "text": "Pfizer announces a $10 billion share buyback funded by new bond issuance.",
+    "synthetic": true,
+    "label": {
+      "ticker": "PFE",
+      "event_type": "Capital Action",
+      "equity_polarity": 0.5,
+      "credit_polarity": -0.5,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n018",
+    "timestamp": "2026-10-06T10:50:00Z",
+    "source": "newsapi_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n018",
+    "text": "Tesla to raise $5 billion through a new equity offering to fund factory expansion.",
+    "synthetic": true,
+    "label": {
+      "ticker": "TSLA",
+      "event_type": "Capital Action",
+      "equity_polarity": -0.4,
+      "credit_polarity": 0.5,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n019",
+    "timestamp": "2026-10-06T11:10:00Z",
+    "source": "gdelt_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n019",
+    "text": "Regulators propose higher capital buffers for large banks, with a three-year phase-in.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Regulatory",
+      "equity_polarity": -0.4,
+      "credit_polarity": 0.3,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n020",
+    "timestamp": "2026-10-06T11:30:00Z",
+    "source": "newsapi_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n020",
+    "text": "Exxon Mobil to acquire a mid-size shale producer in an all-debt deal worth $9 billion.",
+    "synthetic": true,
+    "label": {
+      "ticker": "XOM",
+      "event_type": "Merger/Acquisition",
+      "equity_polarity": 0.1,
+      "credit_polarity": -0.5,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n021",
+    "timestamp": "2026-10-06T11:50:00Z",
+    "source": "newsapi_sample",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n021",
+    "text": "Chevron beats earnings estimates on higher refining margins and raises its outlook.",
+    "synthetic": true,
+    "label": {
+      "ticker": "CVX",
+      "event_type": "Earnings",
+      "equity_polarity": 0.7,
+      "credit_polarity": 0.4,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n022",
+    "timestamp": "2026-10-06T12:10:00Z",
+    "source": "tweet_replay",
+    "scenario": "banking_stress",
+    "url": "synthetic://sentinel/n022",
+    "text": "Love how $BAC 'unexpectedly' needs more provisions. Totally didn't see that coming 🙄",
+    "synthetic": true,
+    "label": {
+      "ticker": "BAC",
+      "event_type": "Credit Event",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.6,
+      "is_sarcastic": true,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n023",
+    "timestamp": "2026-10-07T09:00:00Z",
+    "source": "tweet_replay",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n023",
+    "text": "Apple event tonight, new iPhone leaks look 🔥 can't wait $AAPL",
+    "synthetic": true,
+    "label": {
+      "ticker": "AAPL",
+      "event_type": "Product Launch",
+      "equity_polarity": 0.6,
+      "credit_polarity": 0.1,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n024",
+    "timestamp": "2026-10-07T09:10:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n024",
+    "text": "Nvidia unveils next-generation AI accelerator; shares surge in early trading.",
+    "synthetic": true,
+    "label": {
+      "ticker": "NVDA",
+      "event_type": "Product Launch",
+      "equity_polarity": 0.8,
+      "credit_polarity": 0.3,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n025",
+    "timestamp": "2026-10-07T09:20:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n025",
+    "text": "Meta Platforms unveils new AI smart glasses at its developer conference.",
+    "synthetic": true,
+    "label": {
+      "ticker": "META",
+      "event_type": "Product Launch",
+      "equity_polarity": 0.5,
+      "credit_polarity": 0.1,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n026",
+    "timestamp": "2026-10-07T09:30:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n026",
+    "text": "Microsoft closes acquisition of a gaming studio after final regulatory approval.",
+    "synthetic": true,
+    "label": {
+      "ticker": "MSFT",
+      "event_type": "Merger/Acquisition",
+      "equity_polarity": 0.3,
+      "credit_polarity": 0.0,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n027",
+    "timestamp": "2026-10-07T09:45:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n027",
+    "text": "Alphabet faces new antitrust ruling that could force changes to search distribution deals.",
+    "synthetic": true,
+    "label": {
+      "ticker": "GOOGL",
+      "event_type": "Regulatory",
+      "equity_polarity": -0.5,
+      "credit_polarity": -0.1,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n028",
+    "timestamp": "2026-10-07T10:00:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n028",
+    "text": "Disney cuts full-year guidance as streaming subscriber growth stalls.",
+    "synthetic": true,
+    "label": {
+      "ticker": "DIS",
+      "event_type": "Earnings",
+      "equity_polarity": -0.6,
+      "credit_polarity": -0.4,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n029",
+    "timestamp": "2026-10-07T10:15:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n029",
+    "text": "Johnson & Johnson wins regulatory approval for a new cancer therapy.",
+    "synthetic": true,
+    "label": {
+      "ticker": "JNJ",
+      "event_type": "Product Launch",
+      "equity_polarity": 0.6,
+      "credit_polarity": 0.2,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n030",
+    "timestamp": "2026-10-07T10:30:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n030",
+    "text": "Coca-Cola raises prices in several markets while volumes decline modestly in the quarter.",
+    "synthetic": true,
+    "label": {
+      "ticker": "KO",
+      "event_type": "Earnings",
+      "equity_polarity": -0.1,
+      "credit_polarity": 0.0,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n031",
+    "timestamp": "2026-10-07T10:45:00Z",
+    "source": "gdelt_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n031",
+    "text": "Federal Reserve cuts rates by 25 basis points, citing a cooling labour market.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Macroeconomic",
+      "equity_polarity": 0.5,
+      "credit_polarity": 0.3,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n032",
+    "timestamp": "2026-10-07T11:00:00Z",
+    "source": "gdelt_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n032",
+    "text": "New sanctions announced on a major oil exporter; energy prices rise and shipping insurers reprice risk.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Geopolitical",
+      "equity_polarity": -0.2,
+      "credit_polarity": -0.3,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n033",
+    "timestamp": "2026-10-07T11:15:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n033",
+    "text": "Apple harvest forecast hits a record as Washington orchard growers report a bumper crop.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Other",
+      "equity_polarity": 0.0,
+      "credit_polarity": 0.0,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n034",
+    "timestamp": "2026-10-07T11:30:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n034",
+    "text": "Amazon rainforest deforestation rises 12% in September, satellite data shows.",
+    "synthetic": true,
+    "label": {
+      "ticker": null,
+      "event_type": "Other",
+      "equity_polarity": 0.0,
+      "credit_polarity": 0.0,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n035",
+    "timestamp": "2026-10-07T11:45:00Z",
+    "source": "tweet_replay",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n035",
+    "text": "$NVDA to the moon 🚀🚀 buy buy buy",
+    "synthetic": true,
+    "label": {
+      "ticker": "NVDA",
+      "event_type": "Other",
+      "equity_polarity": 0.7,
+      "credit_polarity": 0.1,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "id": "n036",
+    "timestamp": "2026-10-07T12:00:00Z",
+    "source": "newsapi_sample",
+    "scenario": "mixed",
+    "url": "synthetic://sentinel/n036",
+    "text": "Microsoft to hold its annual shareholder meeting on Thursday.",
+    "synthetic": true,
+    "label": {
+      "ticker": "MSFT",
+      "event_type": "Other",
+      "equity_polarity": 0.0,
+      "credit_polarity": 0.0,
+      "is_sarcastic": false,
+      "duplicate_of": null
+    }
+  }
+]
