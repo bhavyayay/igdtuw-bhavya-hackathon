@@ -1,0 +1,1290 @@
+[
+  {
+    "signal_id": "4d6e4436524e",
+    "ts": "2026-10-05T09:00:00Z",
+    "source": "gdelt_sample",
+    "text": "Red Sea shipping halted as missile strikes hit two container vessels; insurers suspend war-risk cover for the corridor.",
+    "entity": "Shipping & Logistics sector",
+    "ticker": null,
+    "sector": "Shipping & Logistics",
+    "resolve_conf": 0.6,
+    "sentiment_equity": -0.896,
+    "sentiment_credit": -0.627,
+    "event_type": "Geopolitical",
+    "impact": 9.15,
+    "confidence": 0.845,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "gdelt_sample",
+        "url": "synthetic://sentinel/n001",
+        "quote": "Red Sea shipping halted as missile strikes hit two container vessels;",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.896
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Geopolitical": 8
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "c1eb214a5cba",
+    "ts": "2026-10-05T09:15:00Z",
+    "source": "newsapi_sample",
+    "text": "UPS warns of delivery delays and higher freight costs as carriers divert Asia-Europe cargo around Africa.",
+    "entity": "United Parcel Service Inc.",
+    "ticker": "UPS",
+    "sector": "Shipping & Logistics",
+    "resolve_conf": 0.8,
+    "sentiment_equity": -0.765,
+    "sentiment_credit": -0.535,
+    "event_type": "Geopolitical",
+    "impact": 6.48,
+    "confidence": 0.93,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n002",
+        "quote": "UPS warns of delivery delays and higher freight costs as carriers divert Asia-Europe cargo around Africa.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.765
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Geopolitical": 2
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "c3ffe9b8e939",
+    "ts": "2026-10-05T09:25:00Z",
+    "source": "tweet_replay",
+    "text": "$XOM sitting pretty as Brent spikes on the Red Sea mess. Oil bulls eating good tonight",
+    "entity": "Exxon Mobil Corp.",
+    "ticker": "XOM",
+    "sector": "Energy",
+    "resolve_conf": 0.97,
+    "sentiment_equity": 0.407,
+    "sentiment_credit": 0.1,
+    "event_type": "Geopolitical",
+    "impact": 6.36,
+    "confidence": 0.929,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "tweet_replay",
+        "url": "synthetic://sentinel/n004",
+        "quote": "$XOM sitting pretty as Brent spikes on the Red Sea mess.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.727
+      },
+      "sarcasm": false,
+      "dual_rule": "oil_price_spike",
+      "event_scores": {
+        "Geopolitical": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "80cc764640bf",
+    "ts": "2026-10-05T09:40:00Z",
+    "source": "newsapi_sample",
+    "text": "Brent crude jumps 6% as Red Sea disruption tightens tanker availability.",
+    "entity": "Energy sector",
+    "ticker": null,
+    "sector": "Energy",
+    "resolve_conf": 0.6,
+    "sentiment_equity": 0.082,
+    "sentiment_credit": 0.1,
+    "event_type": "Geopolitical",
+    "impact": 5.48,
+    "confidence": 0.685,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n005",
+        "quote": "Brent crude jumps 6% as Red Sea disruption tightens tanker availability.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.572
+      },
+      "sarcasm": false,
+      "dual_rule": "oil_price_spike",
+      "event_scores": {
+        "Geopolitical": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "d12ee7435065",
+    "ts": "2026-10-05T09:55:00Z",
+    "source": "newsapi_sample",
+    "text": "Walmart says holiday inventory could be delayed as ocean freight rates surge on Red Sea diversions.",
+    "entity": "Walmart Inc.",
+    "ticker": "WMT",
+    "sector": "Consumer Staples",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.256,
+    "sentiment_credit": -0.2,
+    "event_type": "Geopolitical",
+    "impact": 5.95,
+    "confidence": 0.79,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n006",
+        "quote": "Walmart says holiday inventory could be delayed as ocean freight rates surge on Red Sea diversions.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.178
+      },
+      "sarcasm": false,
+      "dual_rule": "cost_pressure",
+      "event_scores": {
+        "Geopolitical": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "272b04c550a8",
+    "ts": "2026-10-05T10:10:00Z",
+    "source": "tweet_replay",
+    "text": "Amazon logistics costs about to go through the roof lol. Red Sea reroutes = margin pain $AMZN",
+    "entity": "Amazon.com Inc.",
+    "ticker": "AMZN",
+    "sector": "Consumer Discretionary",
+    "resolve_conf": 0.97,
+    "sentiment_equity": -0.374,
+    "sentiment_credit": -0.2,
+    "event_type": "Geopolitical",
+    "impact": 5.38,
+    "confidence": 0.929,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "tweet_replay",
+        "url": "synthetic://sentinel/n007",
+        "quote": "Red Sea reroutes = margin pain $AMZN",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.296
+      },
+      "sarcasm": false,
+      "dual_rule": "cost_pressure",
+      "event_scores": {
+        "Geopolitical": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "3bd43f0d76e8",
+    "ts": "2026-10-05T10:30:00Z",
+    "source": "gdelt_sample",
+    "text": "Shipping lenders review exposure as freight insurance premiums triple; analysts flag covenant pressure on leveraged operators.",
+    "entity": "Shipping & Logistics sector",
+    "ticker": null,
+    "sector": "Shipping & Logistics",
+    "resolve_conf": 0.6,
+    "sentiment_equity": -0.465,
+    "sentiment_credit": -0.2,
+    "event_type": "Credit Event",
+    "impact": 6.65,
+    "confidence": 0.845,
+    "half_life_h": 720.0,
+    "evidence": [
+      {
+        "source": "gdelt_sample",
+        "url": "synthetic://sentinel/n008",
+        "quote": "Shipping lenders review exposure as freight insurance premiums triple;",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.66
+      },
+      "sarcasm": false,
+      "dual_rule": "cost_pressure",
+      "event_scores": {
+        "Credit Event": 5.5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "904aae8ff2d8",
+    "ts": "2026-10-05T11:00:00Z",
+    "source": "newsapi_sample",
+    "text": "Caterpillar says Asia-sourced components face four-week delays following shipping reroutes.",
+    "entity": "Caterpillar Inc.",
+    "ticker": "CAT",
+    "sector": "Industrials",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.637,
+    "sentiment_credit": -0.446,
+    "event_type": "Geopolitical",
+    "impact": 6.52,
+    "confidence": 0.965,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n009",
+        "quote": "Caterpillar says Asia-sourced components face four-week delays following shipping reroutes.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.637
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Geopolitical": 2
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "80e4a62c4657",
+    "ts": "2026-10-05T11:30:00Z",
+    "source": "newsapi_sample",
+    "text": "Boeing supplier shipments stall as Red Sea diversions stretch lead times.",
+    "entity": "Boeing Co.",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.649,
+    "sentiment_credit": -0.454,
+    "event_type": "Geopolitical",
+    "impact": 6.67,
+    "confidence": 0.965,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n010",
+        "quote": "Boeing supplier shipments stall as Red Sea diversions stretch lead times.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.649
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Geopolitical": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "0700815887a0",
+    "ts": "2026-10-05T12:00:00Z",
+    "source": "tweet_replay",
+    "text": "Sure, great time to be long global supply chains 🙃 $UPS",
+    "entity": "United Parcel Service Inc.",
+    "ticker": "UPS",
+    "sector": "Shipping & Logistics",
+    "resolve_conf": 0.97,
+    "sentiment_equity": -0.751,
+    "sentiment_credit": -0.525,
+    "event_type": "Geopolitical",
+    "impact": 7.16,
+    "confidence": 0.79,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "tweet_replay",
+        "url": "synthetic://sentinel/n011",
+        "quote": "Sure, great time to be long global supply chains 🙃 $UPS",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.751
+      },
+      "sarcasm": true,
+      "dual_rule": null,
+      "event_scores": {
+        "Geopolitical": 1.6
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "e79bf910b6b5",
+    "ts": "2026-10-06T09:00:00Z",
+    "source": "newsapi_sample",
+    "text": "Bank of America raises provisions for commercial real estate loans by $1.2 billion, citing office vacancy.",
+    "entity": "Bank of America Corp.",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.485,
+    "sentiment_credit": -0.6,
+    "event_type": "Credit Event",
+    "impact": 7.3,
+    "confidence": 0.965,
+    "half_life_h": 720.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n012",
+        "quote": "Bank of America raises provisions for commercial real estate loans by $1.2 billion, citing office vacancy.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.44
+      },
+      "sarcasm": false,
+      "dual_rule": "loan_loss_provisions",
+      "event_scores": {
+        "Credit Event": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "a823bbadab98",
+    "ts": "2026-10-06T09:20:00Z",
+    "source": "newsapi_sample",
+    "text": "Goldman Sachs reports trading revenue above estimates and lifts its quarterly dividend.",
+    "entity": "Goldman Sachs Group Inc.",
+    "ticker": "GS",
+    "sector": "Financials",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.668,
+    "sentiment_credit": 0.4,
+    "event_type": "Earnings",
+    "impact": 5.12,
+    "confidence": 0.902,
+    "half_life_h": 48.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n013",
+        "quote": "Goldman Sachs reports trading revenue above estimates and lifts its quarterly dividend.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.572
+      },
+      "sarcasm": false,
+      "dual_rule": "earnings_beat",
+      "event_scores": {
+        "Earnings": 6,
+        "Capital Action": 1.5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "c4d697b74898",
+    "ts": "2026-10-06T09:35:00Z",
+    "source": "gdelt_sample",
+    "text": "Fed signals rates to stay higher for longer as inflation surprises to the upside; 10-year Treasury yield climbs to 5.1%.",
+    "entity": "Broad market",
+    "ticker": null,
+    "sector": null,
+    "resolve_conf": 0.4,
+    "sentiment_equity": -0.275,
+    "sentiment_credit": -0.5,
+    "event_type": "Macroeconomic",
+    "impact": 6.27,
+    "confidence": 0.6,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "gdelt_sample",
+        "url": "synthetic://sentinel/n014",
+        "quote": "Fed signals rates to stay higher for longer as inflation surprises to the upside;",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.402
+      },
+      "sarcasm": false,
+      "dual_rule": "rate_pressure",
+      "event_scores": {
+        "Macroeconomic": 10
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "af506fc24b1f",
+    "ts": "2026-10-06T09:50:00Z",
+    "source": "tweet_replay",
+    "text": "Hearing chatter that deposit outflows are picking up across regional banks. Stay careful. $BAC",
+    "entity": "Bank of America Corp.",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "resolve_conf": 0.97,
+    "sentiment_equity": -0.296,
+    "sentiment_credit": -0.407,
+    "event_type": "Credit Event",
+    "impact": 5.68,
+    "confidence": 0.929,
+    "half_life_h": 720.0,
+    "evidence": [
+      {
+        "source": "tweet_replay",
+        "url": "synthetic://sentinel/n015",
+        "quote": "Hearing chatter that deposit outflows are picking up across regional banks.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.296
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Credit Event": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "413f9ae864f0",
+    "ts": "2026-10-06T10:10:00Z",
+    "source": "newsapi_sample",
+    "text": "Ratings agency places Boeing on negative watch, citing rising debt and production delays.",
+    "entity": "Boeing Co.",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.585,
+    "sentiment_credit": -0.9,
+    "event_type": "Credit Event",
+    "impact": 7.43,
+    "confidence": 0.965,
+    "half_life_h": 720.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n016",
+        "quote": "Ratings agency places Boeing on negative watch, citing rising debt and production delays.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.84
+      },
+      "sarcasm": false,
+      "dual_rule": "rating_downgrade",
+      "event_scores": {
+        "Credit Event": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "dc261208ff02",
+    "ts": "2026-10-06T10:30:00Z",
+    "source": "newsapi_sample",
+    "text": "Pfizer announces a $10 billion share buyback funded by new bond issuance.",
+    "entity": "Pfizer Inc.",
+    "ticker": "PFE",
+    "sector": "Healthcare",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.528,
+    "sentiment_credit": -0.5,
+    "event_type": "Capital Action",
+    "impact": 5.29,
+    "confidence": 0.965,
+    "half_life_h": 120.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n017",
+        "quote": "Pfizer announces a $10 billion share buyback funded by new bond issuance.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.612
+      },
+      "sarcasm": false,
+      "dual_rule": "debt_funded_buyback",
+      "event_scores": {
+        "Capital Action": 5.5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "4c2e9be9932c",
+    "ts": "2026-10-06T10:50:00Z",
+    "source": "newsapi_sample",
+    "text": "Tesla to raise $5 billion through a new equity offering to fund factory expansion.",
+    "entity": "Tesla Inc.",
+    "ticker": "TSLA",
+    "sector": "Consumer Discretionary",
+    "resolve_conf": 0.8,
+    "sentiment_equity": -0.3,
+    "sentiment_credit": 0.5,
+    "event_type": "Capital Action",
+    "impact": 5.58,
+    "confidence": 0.93,
+    "half_life_h": 120.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n018",
+        "quote": "Tesla to raise $5 billion through a new equity offering to fund factory expansion.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.0
+      },
+      "sarcasm": false,
+      "dual_rule": "equity_raise",
+      "event_scores": {
+        "Capital Action": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "9a40cf331ccb",
+    "ts": "2026-10-06T11:10:00Z",
+    "source": "gdelt_sample",
+    "text": "Regulators propose higher capital buffers for large banks, with a three-year phase-in.",
+    "entity": "Financials sector",
+    "ticker": null,
+    "sector": "Financials",
+    "resolve_conf": 0.6,
+    "sentiment_equity": -0.3,
+    "sentiment_credit": 0.3,
+    "event_type": "Regulatory",
+    "impact": 3.83,
+    "confidence": 0.845,
+    "half_life_h": 168.0,
+    "evidence": [
+      {
+        "source": "gdelt_sample",
+        "url": "synthetic://sentinel/n019",
+        "quote": "Regulators propose higher capital buffers for large banks, with a three-year phase-in.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.0
+      },
+      "sarcasm": false,
+      "dual_rule": "higher_capital_rules",
+      "event_scores": {
+        "Regulatory": 6
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "7235d1212572",
+    "ts": "2026-10-06T11:30:00Z",
+    "source": "newsapi_sample",
+    "text": "Exxon Mobil to acquire a mid-size shale producer in an all-debt deal worth $9 billion.",
+    "entity": "Exxon Mobil Corp.",
+    "ticker": "XOM",
+    "sector": "Energy",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.132,
+    "sentiment_credit": -0.5,
+    "event_type": "Merger/Acquisition",
+    "impact": 5.37,
+    "confidence": 0.965,
+    "half_life_h": 168.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n020",
+        "quote": "Exxon Mobil to acquire a mid-size shale producer in an all-debt deal worth $9 billion.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.226
+      },
+      "sarcasm": false,
+      "dual_rule": "debt_funded_deal",
+      "event_scores": {
+        "Merger/Acquisition": 4
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "7ec3ef257fbf",
+    "ts": "2026-10-06T11:50:00Z",
+    "source": "newsapi_sample",
+    "text": "Chevron beats earnings estimates on higher refining margins and raises its outlook.",
+    "entity": "Chevron Corp.",
+    "ticker": "CVX",
+    "sector": "Energy",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.687,
+    "sentiment_credit": 0.4,
+    "event_type": "Earnings",
+    "impact": 5.21,
+    "confidence": 0.965,
+    "half_life_h": 48.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n021",
+        "quote": "Chevron beats earnings estimates on higher refining margins and raises its outlook.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.649
+      },
+      "sarcasm": false,
+      "dual_rule": "earnings_beat",
+      "event_scores": {
+        "Earnings": 7
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "15fbe6f6035c",
+    "ts": "2026-10-06T12:10:00Z",
+    "source": "tweet_replay",
+    "text": "Love how $BAC 'unexpectedly' needs more provisions. Totally didn't see that coming 🙄",
+    "entity": "Bank of America Corp.",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "resolve_conf": 0.97,
+    "sentiment_equity": -0.46,
+    "sentiment_credit": -0.6,
+    "event_type": "Credit Event",
+    "impact": 6.66,
+    "confidence": 0.79,
+    "half_life_h": 720.0,
+    "evidence": [
+      {
+        "source": "tweet_replay",
+        "url": "synthetic://sentinel/n022",
+        "quote": "Love how $BAC 'unexpectedly' needs more provisions.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.342
+      },
+      "sarcasm": true,
+      "dual_rule": "loan_loss_provisions",
+      "event_scores": {
+        "Credit Event": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "a481b1ca066d",
+    "ts": "2026-10-07T09:00:00Z",
+    "source": "tweet_replay",
+    "text": "Apple event tonight, new iPhone leaks look 🔥 can't wait $AAPL",
+    "entity": "Apple Inc.",
+    "ticker": "AAPL",
+    "sector": "Technology",
+    "resolve_conf": 0.97,
+    "sentiment_equity": 0.0,
+    "sentiment_credit": 0.0,
+    "event_type": "Product Launch",
+    "impact": 1.58,
+    "confidence": 0.929,
+    "half_life_h": 24.0,
+    "evidence": [
+      {
+        "source": "tweet_replay",
+        "url": "synthetic://sentinel/n023",
+        "quote": "Apple event tonight, new iPhone leaks look 🔥 can't wait $AAPL",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.0
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Product Launch": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "1dc7f741eb40",
+    "ts": "2026-10-07T09:10:00Z",
+    "source": "newsapi_sample",
+    "text": "Nvidia unveils next-generation AI accelerator; shares surge in early trading.",
+    "entity": "NVIDIA Corp.",
+    "ticker": "NVDA",
+    "sector": "Technology",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.791,
+    "sentiment_credit": 0.198,
+    "event_type": "Product Launch",
+    "impact": 5.66,
+    "confidence": 0.965,
+    "half_life_h": 24.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n024",
+        "quote": "Nvidia unveils next-generation AI accelerator;",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.791
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Product Launch": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "4ddbaa631684",
+    "ts": "2026-10-07T09:20:00Z",
+    "source": "newsapi_sample",
+    "text": "Meta Platforms unveils new AI smart glasses at its developer conference.",
+    "entity": "Meta Platforms Inc.",
+    "ticker": "META",
+    "sector": "Communication Services",
+    "resolve_conf": 0.95,
+    "sentiment_equity": 0.637,
+    "sentiment_credit": 0.159,
+    "event_type": "Product Launch",
+    "impact": 4.44,
+    "confidence": 0.982,
+    "half_life_h": 24.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n025",
+        "quote": "Meta Platforms unveils new AI smart glasses at its developer conference.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.637
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Product Launch": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "4565160a6054",
+    "ts": "2026-10-07T09:30:00Z",
+    "source": "newsapi_sample",
+    "text": "Microsoft closes acquisition of a gaming studio after final regulatory approval.",
+    "entity": "Microsoft Corp.",
+    "ticker": "MSFT",
+    "sector": "Technology",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.361,
+    "sentiment_credit": 0.108,
+    "event_type": "Merger/Acquisition",
+    "impact": 3.55,
+    "confidence": 0.965,
+    "half_life_h": 168.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n026",
+        "quote": "Microsoft closes acquisition of a gaming studio after final regulatory approval.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.361
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Merger/Acquisition": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "73eb2b868cda",
+    "ts": "2026-10-07T09:45:00Z",
+    "source": "newsapi_sample",
+    "text": "Alphabet faces new antitrust ruling that could force changes to search distribution deals.",
+    "entity": "Alphabet Inc.",
+    "ticker": "GOOGL",
+    "sector": "Communication Services",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.361,
+    "sentiment_credit": -0.108,
+    "event_type": "Regulatory",
+    "impact": 3.55,
+    "confidence": 0.965,
+    "half_life_h": 168.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n027",
+        "quote": "Alphabet faces new antitrust ruling that could force changes to search distribution deals.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.361
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Regulatory": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "24e1d83f8e72",
+    "ts": "2026-10-07T10:00:00Z",
+    "source": "newsapi_sample",
+    "text": "Disney cuts full-year guidance as streaming subscriber growth stalls.",
+    "entity": "Walt Disney Co.",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.535,
+    "sentiment_credit": -0.4,
+    "event_type": "Earnings",
+    "impact": 4.22,
+    "confidence": 0.965,
+    "half_life_h": 48.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n028",
+        "quote": "Disney cuts full-year guidance as streaming subscriber growth stalls.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.34
+      },
+      "sarcasm": false,
+      "dual_rule": "guidance_cut",
+      "event_scores": {
+        "Earnings": 5
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "2e66d198f4da",
+    "ts": "2026-10-07T10:15:00Z",
+    "source": "newsapi_sample",
+    "text": "Johnson & Johnson wins regulatory approval for a new cancer therapy.",
+    "entity": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "sector": "Healthcare",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.202,
+    "sentiment_credit": 0.051,
+    "event_type": "Product Launch",
+    "impact": 3.0,
+    "confidence": 0.965,
+    "half_life_h": 24.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n029",
+        "quote": "Johnson & Johnson wins regulatory approval for a new cancer therapy.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.202
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Product Launch": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "bbc04fffaa1a",
+    "ts": "2026-10-07T10:30:00Z",
+    "source": "newsapi_sample",
+    "text": "Coca-Cola raises prices in several markets while volumes decline modestly in the quarter.",
+    "entity": "Coca-Cola Co.",
+    "ticker": "KO",
+    "sector": "Consumer Staples",
+    "resolve_conf": 0.9,
+    "sentiment_equity": -0.178,
+    "sentiment_credit": -0.107,
+    "event_type": "Earnings",
+    "impact": 3.25,
+    "confidence": 0.965,
+    "half_life_h": 48.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n030",
+        "quote": "Coca-Cola raises prices in several markets while volumes decline modestly in the quarter.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.178
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Earnings": 4
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "f8d33f70145e",
+    "ts": "2026-10-07T10:45:00Z",
+    "source": "gdelt_sample",
+    "text": "Federal Reserve cuts rates by 25 basis points, citing a cooling labour market.",
+    "entity": "Broad market",
+    "ticker": null,
+    "sector": null,
+    "resolve_conf": 0.4,
+    "sentiment_equity": 0.301,
+    "sentiment_credit": 0.3,
+    "event_type": "Macroeconomic",
+    "impact": 4.86,
+    "confidence": 0.6,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "gdelt_sample",
+        "url": "synthetic://sentinel/n031",
+        "quote": "Federal Reserve cuts rates by 25 basis points, citing a cooling labour market.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.296
+      },
+      "sarcasm": false,
+      "dual_rule": "rate_cut",
+      "event_scores": {
+        "Macroeconomic": 8
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "9b9dbb025435",
+    "ts": "2026-10-07T11:00:00Z",
+    "source": "gdelt_sample",
+    "text": "New sanctions announced on a major oil exporter; energy prices rise and shipping insurers reprice risk.",
+    "entity": "Energy sector",
+    "ticker": null,
+    "sector": "Energy",
+    "resolve_conf": 0.6,
+    "sentiment_equity": -0.369,
+    "sentiment_credit": -0.258,
+    "event_type": "Geopolitical",
+    "impact": 5.06,
+    "confidence": 0.845,
+    "half_life_h": 72.0,
+    "evidence": [
+      {
+        "source": "gdelt_sample",
+        "url": "synthetic://sentinel/n032",
+        "quote": "New sanctions announced on a major oil exporter;",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": -0.369
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {
+        "Geopolitical": 3
+      }
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "44c3212acfbc",
+    "ts": "2026-10-07T11:15:00Z",
+    "source": "newsapi_sample",
+    "text": "Apple harvest forecast hits a record as Washington orchard growers report a bumper crop.",
+    "entity": "Broad market",
+    "ticker": null,
+    "sector": null,
+    "resolve_conf": 0.4,
+    "sentiment_equity": 0.122,
+    "sentiment_credit": 0.037,
+    "event_type": "Other",
+    "impact": 2.89,
+    "confidence": 0.665,
+    "half_life_h": 12.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n033",
+        "quote": "Apple harvest forecast hits a record as Washington orchard growers report a bumper crop.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.612
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {}
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "928d25b11b87",
+    "ts": "2026-10-07T11:30:00Z",
+    "source": "newsapi_sample",
+    "text": "Amazon rainforest deforestation rises 12% in September, satellite data shows.",
+    "entity": "Broad market",
+    "ticker": null,
+    "sector": null,
+    "resolve_conf": 0.4,
+    "sentiment_equity": 0.036,
+    "sentiment_credit": 0.011,
+    "event_type": "Other",
+    "impact": 2.17,
+    "confidence": 0.665,
+    "half_life_h": 12.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n034",
+        "quote": "Amazon rainforest deforestation rises 12% in September, satellite data shows.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.178
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {}
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "8f22d5aa68e0",
+    "ts": "2026-10-07T11:45:00Z",
+    "source": "tweet_replay",
+    "text": "$NVDA to the moon 🚀🚀 buy buy buy",
+    "entity": "NVIDIA Corp.",
+    "ticker": "NVDA",
+    "sector": "Technology",
+    "resolve_conf": 0.97,
+    "sentiment_equity": 0.511,
+    "sentiment_credit": 0.153,
+    "event_type": "Other",
+    "impact": 2.58,
+    "confidence": 0.804,
+    "half_life_h": 12.0,
+    "evidence": [
+      {
+        "source": "tweet_replay",
+        "url": "synthetic://sentinel/n035",
+        "quote": "$NVDA to the moon 🚀🚀 buy buy buy",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.511
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {}
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  },
+  {
+    "signal_id": "53e369f28d4f",
+    "ts": "2026-10-07T12:00:00Z",
+    "source": "newsapi_sample",
+    "text": "Microsoft to hold its annual shareholder meeting on Thursday.",
+    "entity": "Microsoft Corp.",
+    "ticker": "MSFT",
+    "sector": "Technology",
+    "resolve_conf": 0.9,
+    "sentiment_equity": 0.0,
+    "sentiment_credit": 0.0,
+    "event_type": "Other",
+    "impact": 1.0,
+    "confidence": 0.84,
+    "half_life_h": 12.0,
+    "evidence": [
+      {
+        "source": "newsapi_sample",
+        "url": "synthetic://sentinel/n036",
+        "quote": "Microsoft to hold its annual shareholder meeting on Thursday.",
+        "verified": true
+      }
+    ],
+    "model_votes": {
+      "base_model": {
+        "name": "vader+finlex",
+        "score": 0.0
+      },
+      "sarcasm": false,
+      "dual_rule": null,
+      "event_scores": {}
+    },
+    "contagion": {},
+    "model_version": "sentinel-nlp-0.1.0"
+  }
+]
