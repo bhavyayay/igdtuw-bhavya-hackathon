@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8.0
+yfinance>=0.2.40
+matplotlib>=3.8
