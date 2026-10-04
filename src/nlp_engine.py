@@ -545,34 +545,38 @@ def _sign(x: float, eps: float = 0.20) -> int:
     return 0 if abs(x) < eps else (1 if x > 0 else -1)
 
 
+def _mean(xs) -> float:
+    xs = list(xs)
+    return float(np.mean(xs)) if xs else float("nan")
+
+
 def evaluate(items: list[dict], signals: list[RiskSignal]) -> dict:
     from sklearn.metrics import f1_score
     # signal_id is hashed, so pair items and signals by chronological order
     labelled = [(i, s) for i, s in zip(sorted(items, key=lambda x: x["timestamp"]), signals) if i.get("label")]
     y_true = [i["label"]["event_type"] for i, _ in labelled]
     y_pred = [s.event_type.value for _, s in labelled]
-    ent_ok = np.mean([i["label"]["ticker"] == s.ticker for i, s in labelled])
-    eq_ok = np.mean([_sign(i["label"]["equity_polarity"]) == _sign(s.sentiment_equity) for i, s in labelled])
-    cr_ok = np.mean([_sign(i["label"]["credit_polarity"]) == _sign(s.sentiment_credit) for i, s in labelled])
+    ent_ok = _mean([i["label"]["ticker"] == s.ticker for i, s in labelled])
+    eq_ok = _mean([_sign(i["label"]["equity_polarity"]) == _sign(s.sentiment_equity) for i, s in labelled])
+    cr_ok = _mean([_sign(i["label"]["credit_polarity"]) == _sign(s.sentiment_credit) for i, s in labelled])
     div = [(i, s) for i, s in labelled
            if _sign(i["label"]["equity_polarity"]) != _sign(i["label"]["credit_polarity"])]
-    cr_div = np.mean([_sign(i["label"]["credit_polarity"]) == _sign(s.sentiment_credit) for i, s in div])
-    single_div = np.mean([_sign(i["label"]["credit_polarity"]) == _sign(s.sentiment_equity) for i, s in div])
+    cr_div = _mean([_sign(i["label"]["credit_polarity"]) == _sign(s.sentiment_credit) for i, s in div])
+    single_div = _mean([_sign(i["label"]["credit_polarity"]) == _sign(s.sentiment_equity) for i, s in div])
     sarc = [(i, s) for i, s in labelled if i["label"]["is_sarcastic"]]
-    sarc_ok = np.mean([_sign(i["label"]["equity_polarity"]) == _sign(s.sentiment_equity) for i, s in sarc])
+    sarc_ok = _mean([_sign(i["label"]["equity_polarity"]) == _sign(s.sentiment_equity) for i, s in sarc])
     return {
         "n": len(labelled),
-        "entity_accuracy": float(ent_ok),
-        "event_accuracy": float(np.mean([a == b for a, b in zip(y_true, y_pred)])),
+        "entity_accuracy": ent_ok,
+        "event_accuracy": _mean([a == b for a, b in zip(y_true, y_pred)]),
         "event_macro_f1": float(f1_score(y_true, y_pred, average="macro", zero_division=0)),
-        "equity_sign_accuracy": float(eq_ok),
-        "credit_sign_accuracy": float(cr_ok),
+        "equity_sign_accuracy": eq_ok,
+        "credit_sign_accuracy": cr_ok,
         "n_divergent_items": len(div),
-        "credit_acc_on_divergent_dual": float(cr_div),
-        "credit_acc_on_divergent_single_polarity_baseline": float(single_div),
-        "sarcasm_items": len(sarc), "sarcasm_equity_sign_accuracy": float(sarc_ok),
+        "credit_acc_on_divergent_dual": cr_div,
+        "credit_acc_on_divergent_single_polarity_baseline": single_div,
+        "sarcasm_items": len(sarc), "sarcasm_equity_sign_accuracy": sarc_ok,
     }
-
 
 if __name__ == "__main__":
     try:
